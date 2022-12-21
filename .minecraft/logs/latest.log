@@ -1,49 +1,257 @@
-[06:50:59] [main/INFO]: ModLauncher running: args [--username, name, --version, ForgeOptiFine 1.19.2, --gameDir, C:\Users\tiago\AppData\Roaming\.minecraft, --assetsDir, C:\Users\tiago\AppData\Roaming\.minecraft\assets, --assetIndex, 1.19, --uuid, 483d7c141a284d1ebc063704ecfce146, --accessToken, ????????, --clientId, ${clientid}, --xuid, ${auth_xuid}, --userType, mojang, --versionType, modified, --width, 925, --height, 530, --launchTarget, forgeclient, --fml.forgeVersion, 43.1.65, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
-[06:50:59] [main/INFO]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.3 by Microsoft; OS Windows 10 arch amd64 version 10.0
-[06:51:00] [main/INFO]: OptiFineTransformationService.onLoad
-[06:51:00] [main/INFO]: OptiFine ZIP file URL: union:/C:/Users/tiago/AppData/Roaming/.minecraft/mods/OptiFine-OptiFine-1.19.2_HD_U_I1_pre4.jar%23147!/
-[06:51:00] [main/INFO]: OptiFine ZIP file: C:\Users\tiago\AppData\Roaming\.minecraft\mods\OptiFine-OptiFine-1.19.2_HD_U_I1_pre4.jar
-[06:51:00] [main/INFO]: Target.PRE_CLASS is available
-[06:51:00] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/tiago/AppData/Roaming/.minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2391!/ Service=ModLauncher Env=CLIENT
-[06:51:00] [main/INFO]: OptiFineTransformationService.initialize
-[06:51:00] [main/WARN]: Configuration file C:\Users\tiago\AppData\Roaming\.minecraft\config\fml.toml is not correct. Correcting
-[06:51:00] [main/WARN]: Incorrect key [defaultConfigPath] was corrected from null to defaultconfigs
-[06:51:00] [main/INFO]: Found mod file tl_skin_cape_forge_1.19_1.19.2-1.28.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.minecraft\mods}
-[06:51:00] [main/WARN]: Mod file C:\Users\tiago\AppData\Roaming\.minecraft\libraries\net\minecraftforge\fmlcore\1.19.2-43.1.65\fmlcore-1.19.2-43.1.65.jar is missing mods.toml file
-[06:51:00] [main/WARN]: Mod file C:\Users\tiago\AppData\Roaming\.minecraft\libraries\net\minecraftforge\javafmllanguage\1.19.2-43.1.65\javafmllanguage-1.19.2-43.1.65.jar is missing mods.toml file
-[06:51:00] [main/WARN]: Mod file C:\Users\tiago\AppData\Roaming\.minecraft\libraries\net\minecraftforge\lowcodelanguage\1.19.2-43.1.65\lowcodelanguage-1.19.2-43.1.65.jar is missing mods.toml file
-[06:51:00] [main/WARN]: Mod file C:\Users\tiago\AppData\Roaming\.minecraft\libraries\net\minecraftforge\mclanguage\1.19.2-43.1.65\mclanguage-1.19.2-43.1.65.jar is missing mods.toml file
-[06:51:00] [main/INFO]: Found mod file fmlcore-1.19.2-43.1.65.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@3c5a54b7
-[06:51:00] [main/INFO]: Found mod file javafmllanguage-1.19.2-43.1.65.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@3c5a54b7
-[06:51:00] [main/INFO]: Found mod file lowcodelanguage-1.19.2-43.1.65.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@3c5a54b7
-[06:51:00] [main/INFO]: Found mod file mclanguage-1.19.2-43.1.65.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@3c5a54b7
-[06:51:00] [main/INFO]: Found mod file client-1.19.2-20220805.130853-srg.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@3c5a54b7
-[06:51:00] [main/INFO]: Found mod file forge-1.19.2-43.1.65-universal.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@3c5a54b7
-[06:51:00] [main/INFO]: No dependencies to load found. Skipping!
-[06:51:01] [main/INFO]: OptiFineTransformationService.transformers
-[06:51:01] [main/INFO]: Targets: 386
-[06:51:01] [main/INFO]: additionalClassesLocator: [optifine., net.optifine.]
-[06:51:01] [main/INFO]: Successfully loaded Mixin Connector [org.tlauncher.MixinConnector]
-[06:51:01] [main/INFO]: Launching target 'forgeclient' with arguments [--version, ForgeOptiFine 1.19.2, --gameDir, C:\Users\tiago\AppData\Roaming\.minecraft, --assetsDir, C:\Users\tiago\AppData\Roaming\.minecraft\assets, --uuid, 483d7c141a284d1ebc063704ecfce146, --username, name, --assetIndex, 1.19, --accessToken, ????????, --clientId, ${clientid}, --xuid, ${auth_xuid}, --userType, mojang, --versionType, modified, --width, 925, --height, 530]
-[06:51:07] [pool-3-thread-1/INFO]: Building unoptimized datafixer
-[06:51:09] [Render thread/WARN]: Assets URL 'union:/C:/Users/tiago/AppData/Roaming/.minecraft/libraries/net/minecraft/client/1.19.2-20220805.130853/client-1.19.2-20220805.130853-srg.jar%23149!/assets/.mcassetsroot' uses unexpected schema
-[06:51:09] [Render thread/WARN]: Assets URL 'union:/C:/Users/tiago/AppData/Roaming/.minecraft/libraries/net/minecraft/client/1.19.2-20220805.130853/client-1.19.2-20220805.130853-srg.jar%23149!/data/.mcassetsroot' uses unexpected schema
-[06:51:09] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[06:51:10] [Render thread/ERROR]: Failed to verify authentication
+[15:34:56] [main/INFO]: ModLauncher running: args [--username, rafiki, --version, Forge 1.19.2, --gameDir, C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft, --assetsDir, C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\assets, --assetIndex, 1.19, --uuid, ca3d052c020e42fc8f5b6479077a7183, --accessToken, ????????, --clientId, ${clientid}, --xuid, ${auth_xuid}, --userType, mojang, --versionType, modified, --width, 925, --height, 530, --launchTarget, forgeclient, --fml.forgeVersion, 43.2.0, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
+[15:34:56] [main/INFO]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.3 by Microsoft; OS Windows 10 arch amd64 version 10.0
+[15:34:57] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/tiago/AppData/Roaming/.tlauncher/.minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2391!/ Service=ModLauncher Env=CLIENT
+[15:34:58] [main/INFO]: Found mod file abnormals_delight-1.19-4.0.0.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file ad_astra-forge-1.19.2-1.11.9.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file AdvancedPeripherals-0.7.21b.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file AdvancementPlaques-1.19.2-1.4.7.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file AE2WTLib-12.8.4.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file AI-Improvements-1.19.2-0.5.2.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file AkashicTome-1.6-22.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file alexsmobs-1.21.0.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file allurement-1.19-3.0.0.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file AmbientSounds_FORGE_v5.2.13_mc1.19.2.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file appleskin-forge-mc1.19-2.4.2.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file Applied-Mekanistics-1.3.3.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file appliedenergistics2-forge-12.9.1.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file architectury-6.3.56-forge.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file ars_creo-1.19.2-3.1.0.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file ars_nouveau-1.19.2-3.5.1.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file artifacts-1.19.2-5.0.1.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file AttributeFix-Forge-1.19.2-17.1.3.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file AutoRegLib-1.8.2-55.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file BalancedCrates1.5.1[1.19.2].jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file balm-4.5.3.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file berry_good-1.19.2-6.0.1.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file BetterAdvancements-1.19.2-0.2.2.142.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file BetterCompatibilityChecker-1.0.9-build.38+mc1.19.2.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file BetterF3-4.0.0-Forge-1.19.2.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file BiomesOPlenty-1.19.2-17.1.2.492.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file blockui-1.19-0.0.64-ALPHA.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file blue_skies-1.19.2-1.3.20.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file blueprint-1.19.2-6.1.0.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file boatload-1.19-4.1.0.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file Bookshelf-Forge-1.19.2-16.1.11.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file BorderlessWindow-1.19.1-1.5.2.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file botarium-forge-1.19.2-1.7.17.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file bushierflowers-0.0.2-1.19.2.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file buzzier_bees-1.19-5.0.1.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file carryon-1.19.2-1.18.2.5.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file catalogue-1.6.3-1.19.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file cave_enhancements-1.19.2-2.1.6-forge.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file cc-tweaked-1.19.2-1.101.1.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file Chunky-1.3.38.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file citadel-2.1.1-1.19.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file clickadv-1.19.2-2.9.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file cloth-config-8.2.88-forge.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file Clumps-forge-1.19.2-9.0.0+11.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file CNB-1.19-1.4.0.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file CodeChickenLib-1.19.2-4.3.0.470-universal.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file cofh_core-1.19.2-10.0.0.29.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file CommonCapabilities-1.19.2-2.8.3.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file Companion-1.19.1-forge-3.0.2.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file configured-2.0.1-1.19.2.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file connectivity-1.19.2-3.4.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file Controlling-forge-1.19.2-10.0+7.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file craftingtweaks-forge-1.19-15.1.0.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file create-1.19.2-0.5.0.f.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file create-1.19.2-0.5.0.g.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file create-confectionery1.19.2_v1.0.8.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file create_crystal_clear-0.1.2e-1.19.2.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file create_enchantment_industry-1.19.2-for-create-0.5.0.g-1.1.9.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file create_misc_and_things_1.19.2_1.1B.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file createdeco-1.2.12-1.19.2.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file CreativeCore_FORGE_v2.9.3_mc1.19.2.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file curios-forge-1.19.2-5.1.1.0.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file CyclopsCore-1.19.2-1.17.0.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file DarkerDepths-1.19-1.0.6-patch3.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file DarkUtilities-Forge-1.19.2-13.1.2.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file Decorative Blocks-forge-1.19.2-3.0.0.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file defaultoptions-forge-1.19-15.0.0.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file domesticationinnovation-1.6.0-1.19.2.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file domum_ornamentum-1.19-1.0.75-ALPHA-universal.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file dusk-1.19.2-2.4.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file dyed-forge-1.19.2-1.1.0.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file ecologics-forge-1.19.2-2.1.10.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file effortlessbuilding-1.19-2.37.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file elevatorid-1.19.2-1.8.9.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file EnderStorage-1.19.2-2.10.1.181-universal.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file engineersdecor-1.19.2-forge-1.3.27.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file ensorcellation-1.19.2-4.0.0.12.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file entityculling-forge-1.5.2-mc1.19.1.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file EquipmentCompare-1.19.1-1.3.1.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file everycomp-1.19.2-2.2.1.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file fairylights-6.0.0-1.19.2.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file Fallingleaves-1.19.1-1.3.1.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file FarmersDelight-1.19-1.2.0.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file FarmersRespite-1.19-2.0.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file farsight-1.19.2-2.1.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file ferritecore-5.0.3-forge.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file FluxNetworks-1.19.2-7.1.2.11.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file FpsReducer2-forge-1.19.2-2.1.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file FramedBlocks-6.6.2.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file FriendlyFire-Forge-1.19.2-14.0.1.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file geckolib-forge-1.19-3.1.38.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file goblintraders-1.8.0-1.19.2.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file guardvillagers-1.19.2-1.5.2.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file hourglass-1.19.1-1.2.1.1.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file hunterillager-1.19.2-6.2.0.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file iammusicplayer-forge-mc1.19.2-3.19.3.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file Iceberg-1.19.2-forge-1.0.49.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file ImmersiveEngineering-1.19.2-9.0.0-153.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file incubation-1.19-3.0.0.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file IntegratedCrafting-1.19.2-1.0.26.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file IntegratedDynamics-1.19.2-1.14.1.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file integratednbt-1.19.2-1.6.0.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file IntegratedTerminals-1.19.2-1.4.1.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file IntegratedTunnels-1.19.2-1.8.17.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file InventoryHud_[1.19.2].forge-3.4.6.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file ItemPhysic_FORGE_v1.6.6_mc1.19.2.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file Jade-1.19.1-forge-8.6.0.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file JadeAddons-1.19.2-forge-3.2.0.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file jeed-1.19.2-1.17.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file jei-1.19.2-forge-11.4.0.288.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file jeimultiblocks-1.19.2-0.0.3.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file JustEnoughProfessions-forge-1.19-2.0.1.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file JustEnoughResources-1.19.2-1.1.0.179.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file Kiwi-1.19.1-forge-8.1.3.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file kleeslabs-forge-1.19-12.1.0.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file konkrete_forge_1.6.0_MC_1.19-1.19.2.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file kubejs-forge-1902.6.0-build.128.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file labels-1.19.2-1.5.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file lapisreserve-1.0.8F.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file light-overlay-7.0.1-forge.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file littlelogistics-mc1.19.2-v1.3.1.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file logprot-1.19.2-1.9.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file lootintegrations-1.19.2-1.7.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file Mekanism-1.19.2-10.3.5.473.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file MekanismAdditions-1.19.2-10.3.5.473.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file MekanismGenerators-1.19.2-10.3.5.473.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file MekanismTools-1.19.2-10.3.5.473.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file minecolonies-1.19.2-1.0.1135-ALPHA.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file mining_helmet-1.19-2.1.1.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file moonlight-1.19.2-2.1.15-forge.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file MouseTweaks-forge-mc1.19-2.23.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file multipiston-1.19.2-1.2.21-ALPHA.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file mutil-1.19.2-5.1.0.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file NaturesCompass-1.19.2-1.10.0-forge.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file neapolitan-1.19.2-4.0.2.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file Neat-1.19-32.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file netherportalfix-forge-1.19-10.0.0.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file notenoughcrashes-4.2.0+1.19.2-forge.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file OfflineSkins-1.19.2-v1.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file open-parties-and-claims-forge-1.19.2-0.16.4.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file OpenLoader-Forge-1.19.2-15.0.1.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file otyacraftengine-forge-mc1.19.2-3.2.0.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file Paintings-forge-1.19.2-10.2.4.0.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file Patchouli-1.19.2-77.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file personality-1.19-3.0.1.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file PigPen-Forge-1.19.2-11.1.2.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file pitg-1.19.1-2.1.2.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file pneumaticcraft-repressurized-1.19.2-4.1.3-15.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file polymorph-forge-0.46.1+1.19.2.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file Quark-3.3-374.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file QuarkOddities-1.18.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file RapidLeafDecay-1.19.2-2.0.2.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file reap-1.19.2-1.0.0.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file resourcefulconfig-forge-1.19.2-1.0.16.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file resourcefullib-forge-1.19.2-1.1.17.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file rhino-forge-1902.2.2-build.264.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file rottencreatures-forge-1.19.2-1.0.1.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file Runelic-Forge-1.19.2-14.1.3.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file savage_and_ravage-1.19-5.0.2.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file seasonals-1.19.2-4.0.0.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file serverconfigupdater-2.0.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file Shoppy-1.19.2-FORGE-1.0.5-all.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file simple-rpc-1.19-3.2.0.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file SimpleBackups-1.19.1-2.1.4.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file smarterfarmers-1.19.2-1.7.0.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file sophisticatedbackpacks-1.19.2-3.18.35.751.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file sophisticatedcore-1.19.2-0.5.32.181.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file spark-1.9.45-forge.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file starlight-1.1.1+forge.cf5b10b.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file Steam_Rails-1.19.2-1.0.4.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file structure_gel-1.19.2-2.7.1.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file structurize-1.19.2-1.0.468-ALPHA.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file sullysmod-2.1.0-beta.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file supplementaries-1.19.2-2.2.26.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file swingthroughgrass-1.19.2-1.10.0.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file TerraBlender-forge-1.19.2-2.0.1.128.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file the-conjurer-1.19.2-1.1.5.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file tl_skin_cape_forge_1.19_1.19.2-1.28.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file ToolStats-Forge-1.19.2-12.0.2.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file torchmaster-19.2.0.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file transparent-5.1.2+1.19-forge.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file trashslot-forge-1.19-12.0.0.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file trolldom-1.19.2-1.1.0.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file twilightforest-1.19.2-4.2.1468-universal.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file v_slab_compat-1.19.2-1.0.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file waystones-forge-1.19-11.1.0.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file woodworks-1.19.2-2.1.0.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file Xaeros_Minimap_22.16.3_Forge_1.19.1.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file XaerosWorldMap_1.28.4_Forge_1.19.1.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file YungsApi-1.19.2-Forge-3.8.2.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file YungsBetterDungeons-1.19.2-Forge-3.2.2.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/INFO]: Found mod file YungsBetterStrongholds-1.19.2-Forge-3.2.0.jar of type MOD with provider {mods folder locator at C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\mods}
+[15:34:58] [main/WARN]: Mod file C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\libraries\net\minecraftforge\fmlcore\1.19.2-43.2.0\fmlcore-1.19.2-43.2.0.jar is missing mods.toml file
+[15:34:58] [main/WARN]: Mod file C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\libraries\net\minecraftforge\javafmllanguage\1.19.2-43.2.0\javafmllanguage-1.19.2-43.2.0.jar is missing mods.toml file
+[15:34:58] [main/WARN]: Mod file C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\libraries\net\minecraftforge\lowcodelanguage\1.19.2-43.2.0\lowcodelanguage-1.19.2-43.2.0.jar is missing mods.toml file
+[15:34:58] [main/WARN]: Mod file C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\libraries\net\minecraftforge\mclanguage\1.19.2-43.2.0\mclanguage-1.19.2-43.2.0.jar is missing mods.toml file
+[15:34:58] [main/INFO]: Found mod file fmlcore-1.19.2-43.2.0.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@393881f0
+[15:34:58] [main/INFO]: Found mod file javafmllanguage-1.19.2-43.2.0.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@393881f0
+[15:34:58] [main/INFO]: Found mod file lowcodelanguage-1.19.2-43.2.0.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@393881f0
+[15:34:58] [main/INFO]: Found mod file mclanguage-1.19.2-43.2.0.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@393881f0
+[15:34:58] [main/INFO]: Found mod file client-1.19.2-20220805.130853-srg.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@393881f0
+[15:34:58] [main/INFO]: Found mod file forge-1.19.2-43.2.0-universal.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@393881f0
+[15:34:58] [main/INFO]: Found 8 dependencies adding them to mods collection
+[15:34:58] [main/INFO]: Found mod file MixinExtras-0.1.0-rc5.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@87b5b49
+[15:34:58] [main/INFO]: Found mod file OctoEconomyApi-forge-1.1.0-1.18.2.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@87b5b49
+[15:34:58] [main/INFO]: Found mod file flywheel-forge-1.19.2-0.6.8-13.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@87b5b49
+[15:34:58] [main/INFO]: Found mod file expandability-forge-7.0.0.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@87b5b49
+[15:34:58] [main/INFO]: Found mod file caffeine-3.1.1.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@87b5b49
+[15:34:58] [main/INFO]: Found mod file create_dragon_lib-1.19.2-1.1.2.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@87b5b49
+[15:34:58] [main/INFO]: Found mod file Registrate-MC1.19-1.1.5.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@87b5b49
+[15:34:58] [main/INFO]: Found mod file spectrelib-forge-0.11.0+1.19.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@87b5b49
+[15:35:02] [main/INFO]: Compatibility level set to JAVA_17
+[15:35:03] [main/ERROR]: Mixin config rottencreatures-common.mixins.json does not specify "minVersion" property
+[15:35:03] [main/ERROR]: Mixin config rottencreatures.mixins.json does not specify "minVersion" property
+[15:35:03] [main/INFO]: Successfully loaded Mixin Connector [ca.spottedleaf.starlight.mixin.MixinConnector]
+[15:35:03] [main/INFO]: Successfully loaded Mixin Connector [org.tlauncher.MixinConnector]
+[15:35:03] [main/INFO]: Launching target 'forgeclient' with arguments [--version, Forge 1.19.2, --gameDir, C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft, --assetsDir, C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\assets, --uuid, ca3d052c020e42fc8f5b6479077a7183, --username, rafiki, --assetIndex, 1.19, --accessToken, ????????, --clientId, ${clientid}, --xuid, ${auth_xuid}, --userType, mojang, --versionType, modified, --width, 925, --height, 530]
+[15:35:03] [main/WARN]: Reference map 'createdeco.refmap.json' for createdeco.mixins.json could not be read. If this is a development environment you can ignore this message
+[15:35:03] [main/WARN]: Reference map 'labels-common-refmap.json' for labels-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[15:35:03] [main/WARN]: Reference map 'labels-forge-refmap.json' for labels.mixins.json could not be read. If this is a development environment you can ignore this message
+[15:35:03] [main/WARN]: Reference map 'trolldom.refmap.json' for trolldom.mixins.json could not be read. If this is a development environment you can ignore this message
+[15:35:03] [main/WARN]: Reference map 'v_slab_compat-common-refmap.json' for v_slab_compat-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[15:35:03] [main/INFO]: OptiFine was NOT detected.
+[15:35:03] [main/INFO]: OptiFabric was NOT detected.
+[15:35:03] [main/WARN]: Reference map 'everycomp-common-refmap.json' for everycomp-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[15:35:03] [main/WARN]: Reference map 'everycomp.refmap.json' for everycomp.mixins.json could not be read. If this is a development environment you can ignore this message
+[15:35:03] [main/WARN]: Reference map 'rottencreatures-forge-refmap.json' for rottencreatures.mixins.json could not be read. If this is a development environment you can ignore this message
+[15:35:05] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/data/ChunkRenderData$Builder (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.render.chunk.data.ChunkRenderData$Builder)
+[15:35:05] [main/WARN]: @Mixin target me.jellysquid.mods.sodium.client.render.chunk.data.ChunkRenderData$Builder was not found flywheel.mixins.json:instancemanage.SodiumChunkRenderDataMixin
+[15:35:05] [main/INFO]: bre2el.fpsreducer.mixin.RenderSystemMixin will be applied.
+[15:35:05] [main/INFO]: bre2el.fpsreducer.mixin.WindowMixin will NOT be applied because OptiFine was NOT detected.
+[15:35:11] [pool-3-thread-1/INFO]: Building unoptimized datafixer
+[15:35:14] [Render thread/WARN]: Assets URL 'union:/C:/Users/tiago/AppData/Roaming/.tlauncher/.minecraft/libraries/net/minecraft/client/1.19.2-20220805.130853/client-1.19.2-20220805.130853-srg.jar%23531!/assets/.mcassetsroot' uses unexpected schema
+[15:35:14] [Render thread/WARN]: Assets URL 'union:/C:/Users/tiago/AppData/Roaming/.tlauncher/.minecraft/libraries/net/minecraft/client/1.19.2-20220805.130853/client-1.19.2-20220805.130853-srg.jar%23531!/data/.mcassetsroot' uses unexpected schema
+[15:35:14] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:35:14] [Render thread/ERROR]: Failed to verify authentication
 com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
 	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56) ~[authlib-3.11.49.5.jar%23122!/:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:155) ~[authlib-3.11.49.5.jar%23122!/:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.<init>(YggdrasilUserApiService.java:55) ~[authlib-3.11.49.5.jar%23122!/:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.createUserApiService(YggdrasilAuthenticationService.java:161) ~[authlib-3.11.49.5.jar%23122!/:?]
-	at net.minecraft.client.Minecraft.m_193585_(Minecraft.java:646) ~[client-1.19.2-20220805.130853-srg.jar%23149!/:?]
-	at net.minecraft.client.Minecraft.<init>(Minecraft.java:405) ~[client-1.19.2-20220805.130853-srg.jar%23149!/:?]
-	at net.minecraft.client.main.Main.m_239872_(Main.java:176) ~[client-1.19.2-20220805.130853-srg.jar%23149!/:?]
-	at net.minecraft.client.main.Main.main(Main.java:51) ~[client-1.19.2-20220805.130853-srg.jar%23149!/:?]
+	at net.minecraft.client.Minecraft.m_193585_(Minecraft.java:646) ~[client-1.19.2-20220805.130853-srg.jar%23531!/:?]
+	at net.minecraft.client.Minecraft.<init>(Minecraft.java:405) ~[client-1.19.2-20220805.130853-srg.jar%23531!/:?]
+	at net.minecraft.client.main.Main.m_239872_(Main.java:176) ~[client-1.19.2-20220805.130853-srg.jar%23531!/:?]
+	at net.minecraft.client.main.Main.main(Main.java:51) ~[client-1.19.2-20220805.130853-srg.jar%23531!/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
 	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
-	at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$launchService$0(CommonClientLaunchHandler.java:27) ~[fmlloader-1.19.2-43.1.65.jar%2395!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$launchService$0(CommonClientLaunchHandler.java:27) ~[fmlloader-1.19.2-43.2.0.jar%2395!/:?]
 	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%2382!/:?]
 	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%2382!/:?]
 	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%2382!/:?]
@@ -57,43 +265,444 @@ Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 4
 	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48) ~[authlib-3.11.49.5.jar%23122!/:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:129) ~[authlib-3.11.49.5.jar%23122!/:?]
 	... 19 more
-[06:51:10] [Render thread/INFO]: Setting user: name
-[06:51:11] [Render thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraft.launchwrapper.Launch
-[06:51:11] [Render thread/INFO]: Backend library: LWJGL version 3.3.1 build 7
-[06:51:11] [Render thread/INFO]: [OptiFine] 
-[06:51:11] [Render thread/INFO]: [OptiFine] OptiFine_1.19.2_HD_U_I1_pre4
-[06:51:11] [Render thread/INFO]: [OptiFine] Build: 20221114-000910
-[06:51:11] [Render thread/INFO]: [OptiFine] OS: Windows 10 (amd64) version 10.0
-[06:51:11] [Render thread/INFO]: [OptiFine] Java: 17.0.3, Microsoft
-[06:51:11] [Render thread/INFO]: [OptiFine] VM: OpenJDK 64-Bit Server VM (mixed mode), Microsoft
-[06:51:11] [Render thread/INFO]: [OptiFine] LWJGL: 3.4.0 Win32 WGL Null EGL OSMesa VisualC DLL
-[06:51:11] [Render thread/INFO]: [OptiFine] OpenGL: NVIDIA GeForce GTX 950/PCIe/SSE2, version 3.2.0 NVIDIA 527.37, NVIDIA Corporation
-[06:51:11] [Render thread/INFO]: [OptiFine] OpenGL Version: 3.2.0
-[06:51:11] [Render thread/INFO]: [OptiFine] Maximum texture size: 16384x16384
-[06:51:11] [VersionCheck/INFO]: [OptiFine] Checking for new version
-[06:51:11] [Render thread/INFO]: [Shaders] OpenGL Version: 3.2.0 NVIDIA 527.37
-[06:51:11] [Render thread/INFO]: [Shaders] Vendor:  NVIDIA Corporation
-[06:51:11] [Render thread/INFO]: [Shaders] Renderer: NVIDIA GeForce GTX 950/PCIe/SSE2
-[06:51:11] [Render thread/INFO]: [Shaders] Capabilities:  2.0  2.1  3.0  3.2  - 
-[06:51:11] [Render thread/INFO]: [Shaders] GL_MAX_DRAW_BUFFERS: 8
-[06:51:11] [Render thread/INFO]: [Shaders] GL_MAX_COLOR_ATTACHMENTS: 8
-[06:51:11] [Render thread/INFO]: [Shaders] GL_MAX_TEXTURE_IMAGE_UNITS: 32
-[06:51:11] [Render thread/INFO]: [Shaders] Load shaders configuration.
-[06:51:11] [Render thread/INFO]: [Shaders] Save shaders configuration.
-[06:51:11] [Render thread/INFO]: [Shaders] No shaderpack loaded.
-[06:51:11] [Render thread/INFO]: [OptiFine] [Shaders] Delayed loading of item mappings after resources are loaded
-[06:51:11] [Render thread/INFO]: [OptiFine] [Shaders] Delayed loading of entity mappings after resources are loaded
-[06:51:11] [modloading-worker-0/INFO]: Forge mod loading, version 43.1.65, for MC 1.19.2 with MCP 20220805.130853
-[06:51:11] [modloading-worker-0/INFO]: MinecraftForge v43.1.65 Initialized
-[06:51:11] [VersionCheck/INFO]: [OptiFine] java.io.FileNotFoundException: http://optifine.net/version/1.19.2/HD_U.txt
-[06:51:12] [Render thread/WARN]: [OptiFine] (Reflector) java.lang.ClassNotFoundException: sun.misc.SharedSecrets
-[06:51:12] [Render thread/WARN]: [OptiFine] (Reflector) java.lang.ClassNotFoundException: jdk.internal.misc.SharedSecrets
-[06:51:12] [Render thread/WARN]: [OptiFine] (Reflector) java.lang.ClassNotFoundException: sun.misc.VM
-[06:51:12] [Render thread/WARN]: [OptiFine] (Reflector) java.lang.reflect.InaccessibleObjectException: Unable to make public static long jdk.internal.misc.VM.maxDirectMemory() accessible: module java.base does not "exports jdk.internal.misc" to module net.optifine
-[06:51:12] [Worker-Main-1/ERROR]: Failed to retrieve profile key pair
+[15:35:14] [Render thread/INFO]: Setting user: rafiki
+[15:35:14] [Render thread/INFO]: Loaded default options for extra-folder
+[15:35:15] [Render thread/INFO]: Loading config file from C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\config\simple-rpc\simple-rpc.toml
+[15:35:15] [Render thread/INFO]: Registered simple-rpc.toml successfully!
+[15:35:15] [Render thread/INFO]: Loading config file from C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\config\simple-rpc\server-entries.toml
+[15:35:15] [Render thread/INFO]: Registered server-entries.toml successfully!
+[15:35:15] [Render thread/INFO]: Backend library: LWJGL version 3.3.1 build 7
+[15:35:15] [Render thread/INFO]: Loaded client.properties
+[15:35:16] [modloading-worker-0/INFO]: Better Compatibility Checker loading
+[15:35:16] [modloading-worker-0/INFO]: Saving config to C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\config\toolstats.json.
+[15:35:16] [pool-4-thread-1/INFO]: Connected and Ready!
+[15:35:16] [modloading-worker-0/INFO]: Creating mod instance
+[15:35:16] [modloading-worker-0/INFO]: Enable server compatibility
+[15:35:16] [modloading-worker-0/INFO]: Register client configuration
+[15:35:17] [modloading-worker-0/INFO]: loading json file and contents for paintings.
+[15:35:17] [modloading-worker-0/INFO]: **Paintings++ no longer copies the base file outside if the mod. **
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting abstract_blue , 16 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting abstract_rainbow , 16 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting abstract_red , 16 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting abstract_sunset , 16 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting arachnophobe , 32 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting barn_owl , 32 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting big_z , 16 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting blue_bird , 32 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting bluesclues , 32 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting borgia , 16 x 32
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting cane , 16 x 32
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting cat_black , 16 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting cat_gray , 16 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting cat_orange , 16 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting cat , 32 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting colorful_squares , 32 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting crest , 32 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting danger_zone , 32 x 32
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting decorative_gun , 32 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting exit_down , 32 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting exit_up , 32 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting exit_left , 32 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting exit_right , 32 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting face_bat , 16 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting face_chicken , 16 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting face_cow , 16 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting face_creeper , 16 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting face_dog , 16 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting face_enderman , 16 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting face_pig , 16 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting face_pigman , 16 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting face_silverfish , 16 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting face_skeleton , 16 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting face_squid , 16 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting face_zombie , 16 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting fishes , 32 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting flowers , 32 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting fruits , 32 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting ghost , 16 x 32
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting glowlamp , 32 x 32
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting glowstone_hourglass , 16 x 32
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting iluvmc , 32 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting link , 32 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting mine_prosperity , 32 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting no_trespassing_for_mobs , 32 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting ocelot , 16 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting penguin , 32 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting pig_on_a_cliff , 32 x 32
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting pkmn_blue , 32 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting pkmn_red , 32 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting pkmn_green , 32 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting plains_hut , 32 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting portrait_2 , 16 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting portrait , 32 x 32
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting prison , 16 x 32
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting prosperity , 16 x 32
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting rest , 32 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting skeleton , 16 x 32
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting sky , 32 x 32
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting skyblock , 32 x 32
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting snake , 16 x 32
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting snow_landscape , 32 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting subaraki , 32 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting synth_city , 16 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting tapistry_a , 32 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting tapistry_b , 16 x 32
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting tapistry_purple , 16 x 32
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting torched , 32 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting waterfall , 32 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting whale , 32 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting wheat_field , 32 x 16
+[15:35:17] [modloading-worker-0/INFO]: Loaded json painting wolf_in_wheat , 32 x 16
+[15:35:17] [modloading-worker-0/INFO]: Forge mod loading, version 43.2.0, for MC 1.19.2 with MCP 20220805.130853
+[15:35:17] [modloading-worker-0/INFO]: MinecraftForge v43.2.0 Initialized
+[15:35:17] [modloading-worker-0/INFO]: Processing 2 KiwiModule annotations
+[15:35:17] [modloading-worker-0/INFO]: No shaders mod detected.
+[15:35:18] [modloading-worker-0/INFO]: Loaded config file.
+[15:35:18] [modloading-worker-0/INFO]: Saved config file.
+[15:35:18] [Structurize IO Worker #0/INFO]: Registered structure pack: Shire
+[15:35:18] [Structurize IO Worker #0/INFO]: Registered structure pack: Desert Oasis
+[15:35:18] [Structurize IO Worker #0/INFO]: Registered structure pack: Pagoda
+[15:35:18] [Structurize IO Worker #0/INFO]: Registered structure pack: Minecolonies Original
+[15:35:18] [Structurize IO Worker #0/INFO]: Registered structure pack: Caledonia
+[15:35:18] [Structurize IO Worker #0/INFO]: Registered structure pack: Incan
+[15:35:18] [Structurize IO Worker #0/INFO]: Registered structure pack: Warped Netherlands
+[15:35:18] [Structurize IO Worker #0/INFO]: Registered structure pack: Dark Oak Treehouse
+[15:35:18] [Structurize IO Worker #0/INFO]: Registered structure pack: Urban Birch
+[15:35:18] [Structurize IO Worker #0/INFO]: Registered structure pack: Medieval Oak
+[15:35:18] [Structurize IO Worker #0/INFO]: Registered structure pack: Medieval Birch
+[15:35:18] [Structurize IO Worker #0/INFO]: Registered structure pack: Cavern
+[15:35:18] [Structurize IO Worker #0/INFO]: Registered structure pack: Space Wars
+[15:35:18] [Structurize IO Worker #0/INFO]: Registered structure pack: Medieval Spruce
+[15:35:18] [Structurize IO Worker #0/INFO]: Registered structure pack: Jungle Treehouse
+[15:35:18] [Structurize IO Worker #0/INFO]: Registered structure pack: Nordic Spruce
+[15:35:18] [Structurize IO Worker #0/INFO]: Registered structure pack: Medieval Dark Oak
+[15:35:18] [Structurize IO Worker #0/INFO]: Registered structure pack: Urban Savanna
+[15:35:18] [Structurize IO Worker #0/INFO]: Registered structure pack: Stalactite Caves
+[15:35:18] [Structurize IO Worker #0/INFO]: Registered structure pack: Lost Mesa City
+[15:35:18] [Structurize IO Worker #0/INFO]: Registered structure pack: Fortress
+[15:35:18] [Structurize IO Worker #0/INFO]: Registered structure pack: rafiki
+[15:35:18] [Structurize IO Worker #0/WARN]: Finished discovering Client Structure packs
+[15:35:18] [Modding Legacy/blue_skies/Supporters thread/INFO]: Attempting to load the Modding Legacy supporters list from https://moddinglegacy.com/supporters-changelogs/supporters.txt
+[15:35:18] [modloading-worker-0/INFO]: AdvancedPeripherals says hello!
+[15:35:18] [modloading-worker-0/INFO]: botania not loaded, skip integration loading
+[15:35:18] [modloading-worker-0/WARN]: Failed to load integration for botania
+[15:35:18] [modloading-worker-0/WARN]: Successfully loaded integration for create
+[15:35:18] [modloading-worker-0/INFO]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[15:35:18] [modloading-worker-0/INFO]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[15:35:18] [modloading-worker-0/INFO]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[15:35:18] [modloading-worker-0/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[15:35:18] [modloading-worker-0/INFO]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[15:35:18] [modloading-worker-0/INFO]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[15:35:18] [modloading-worker-0/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[15:35:18] [modloading-worker-0/INFO]: Create: Dragon Lib 1.1.2 has initialized, ready to support your Create add-ons!
+[15:35:18] [Modding Legacy/blue_skies/Supporters thread/INFO]: Successfully loaded the Modding Legacy supporters list.
+[15:35:19] [modloading-worker-0/INFO]: [KONKRETE] Successfully initialized!
+[15:35:19] [modloading-worker-0/INFO]: [KONKRETE] Server-side libs ready to use!
+[15:35:19] [modloading-worker-0/INFO]: Registering S2C receiver with id architectury:sync_ids
+[15:35:19] [modloading-worker-0/INFO]: Registering C2S receiver with id architectury:sync_ids
+[15:35:19] [modloading-worker-0/INFO]: Registering C2S receiver with id iammusicplayer:music_sync
+[15:35:19] [modloading-worker-0/INFO]: Registering C2S receiver with id otyacraftengine:block_entity_instruction
+[15:35:19] [modloading-worker-0/INFO]: Registering C2S receiver with id iammusicplayer:music_playlist_add
+[15:35:19] [modloading-worker-0/INFO]: Registering C2S receiver with id otyacraftengine:item_instruction
+[15:35:19] [modloading-worker-0/INFO]: Registering C2S receiver with id iammusicplayer:music_playlist_edit
+[15:35:19] [modloading-worker-0/INFO]: Registering C2S receiver with id iammusicplayer:music_playlist_change_authority
+[15:35:19] [modloading-worker-0/INFO]: Registering C2S receiver with id iammusicplayer:music_add
+[15:35:19] [modloading-worker-0/INFO]: Registering C2S receiver with id iammusicplayer:music_edit
+[15:35:19] [modloading-worker-0/INFO]: Registering C2S receiver with id iammusicplayer:music_ring_ready_result
+[15:35:19] [modloading-worker-0/INFO]: Registering C2S receiver with id iammusicplayer:music_ring_update_result
+[15:35:19] [modloading-worker-0/INFO]: Registering C2S receiver with id iammusicplayer:music_or_playlist_delete
+[15:35:19] [modloading-worker-0/INFO]: Registering C2S receiver with id iammusicplayer:multiple_music_add
+[15:35:19] [modloading-worker-0/INFO]: Registering C2S receiver with id iammusicplayer:hand_lid_cycle
+[15:35:19] [modloading-worker-0/INFO]: Thirdparty integration activated for [cofh_core,immersiveengineering,computercraft,jei,mekanism,curios,patchouli,create]
+[15:35:19] [modloading-worker-0/ERROR]: CoFH IEnchantableItem interface is not where we expected! Continuing, but PneumaticCraft items won't be able to use the Holding enchantment. Notify the PNC mod author, including the versions of PNC and CoFH Core you're using, if you see this error.
+[15:35:20] [modloading-worker-0/INFO]: Looking for KubeJS plugins...
+[15:35:20] [modloading-worker-0/INFO]: Found plugin source kubejs
+[15:35:20] [modloading-worker-0/INFO]: Loaded common.properties
+[15:35:20] [modloading-worker-0/INFO]: Loaded dev.properties
+[15:35:20] [modloading-worker-0/WARN]: Plugin dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration does not have required mod gamestages loaded, skipping
+[15:35:20] [modloading-worker-0/INFO]: Done in 52.85 ms
+[15:35:20] [modloading-worker-0/INFO]: Loading Rhino Minecraft remapper...
+[15:35:20] [modloading-worker-0/INFO]: Rhino properties loaded.
+[15:35:20] [modloading-worker-0/INFO]: Loading mappings for 1.19.2
+[15:35:20] [modloading-worker-0/INFO]: Done in 0.131 s
+[15:35:21] [modloading-worker-0/WARN]: Config field without expected type, will not validate list content (compressBlacklist in net.blay09.mods.craftingtweaks.config.CraftingTweaksConfigData$Common)
+[15:35:21] [modloading-worker-0/WARN]: Config field without expected type, will not validate list content (disabledAddons in net.blay09.mods.craftingtweaks.config.CraftingTweaksConfigData$Client)
+[15:35:21] [modloading-worker-0/INFO]: startup_scripts:script.js:3: Hello, World! (You will only see this line once in console, during startup)
+[15:35:21] [modloading-worker-0/INFO]: Loaded script startup_scripts:script.js in 0.193 s
+[15:35:21] [modloading-worker-0/INFO]: Loaded 1/1 KubeJS startup scripts in 1.045 s
+[15:35:21] [modloading-worker-0/ERROR]: Specified invalid page id in system property guideDev.ae2guide.startupPage
+[15:35:21] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.world.module.SpiralSpiresModule
+[15:35:21] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.world.module.PermafrostModule
+[15:35:21] [modloading-worker-0/INFO]: Engineer's Decor GIT id #da1af53.
+[15:35:21] [modloading-worker-0/INFO]: Loaded script client_scripts:jei_blacklist.js in 0.004 s
+[15:35:21] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.world.module.NoMoreLavaPocketsModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.world.module.NewStoneTypesModule
+[15:35:22] [modloading-worker-0/INFO]: [BetterF3] Starting...
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.world.module.NetherObsidianSpikesModule
+[15:35:22] [modloading-worker-0/INFO]: [BetterF3] Loading...
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.world.module.MonsterBoxModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.world.module.GlimmeringWealdModule
+[15:35:22] [modloading-worker-0/ERROR]: ! #20: Error loading KubeJS script: client_scripts:rei_blacklist.js': ReferenceError: "REIEvents" is not defined. (client_scripts:rei_blacklist.js#20)
+[15:35:22] [modloading-worker-0/INFO]: Loaded 1/2 KubeJS client scripts in 0.034 s
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.world.module.FairyRingsModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.world.module.CorundumModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.world.module.ChorusVegetationModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.world.module.BlossomTreesModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.world.module.BigStoneClustersModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.world.module.AzaleaWoodModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.tweaks.module.ZombieVillagersOnNormalModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.tweaks.module.VillagersFollowEmeraldsModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.tweaks.module.VexesDieWithTheirMastersModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.tweaks.module.UtilityRecipesModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.tweaks.module.SnowGolemPlayerHeadsModule
+[15:35:22] [modloading-worker-0/INFO]: [BetterF3] All done!
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.tweaks.module.SimpleHarvestModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.tweaks.module.SignEditingModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.tweaks.module.ShulkerPackingModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.tweaks.module.SafeRabbitsModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.tweaks.module.ReplaceScaffoldingModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.tweaks.module.RenewableSporeBlossoms
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.tweaks.module.ReacharoundPlacingModule
+[15:35:22] [modloading-worker-0/INFO]: Registering C2S receiver with id kubejs:send_data_from_client
+[15:35:22] [modloading-worker-0/INFO]: Registering S2C receiver with id kubejs:send_data_from_server
+[15:35:22] [modloading-worker-0/INFO]: Registering S2C receiver with id kubejs:paint
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.tweaks.module.PoisonPotatoUsageModule
+[15:35:22] [modloading-worker-0/INFO]: Registering S2C receiver with id kubejs:add_stage
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.tweaks.module.PigLittersModule
+[15:35:22] [modloading-worker-0/INFO]: Registering S2C receiver with id kubejs:remove_stage
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.tweaks.module.PatTheDogsModule
+[15:35:22] [modloading-worker-0/INFO]: Registering S2C receiver with id kubejs:sync_stages
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.tweaks.module.MoreNoteBlockSounds
+[15:35:22] [modloading-worker-0/INFO]: Registering C2S receiver with id kubejs:first_click
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.tweaks.module.MoreBannerLayersModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.tweaks.module.LockRotationModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.tweaks.module.HoeHarvestingModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.tweaks.module.GrabChickensModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.tweaks.module.GlassShardModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.tweaks.module.EnhancedLaddersModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.tweaks.module.EmotesModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.tweaks.module.DragonScalesModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.tweaks.module.DoubleDoorOpeningModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.tweaks.module.CompassesWorkEverywhereModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.tweaks.module.CampfiresBoostElytraModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.tweaks.module.BetterElytraRocketModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.tweaks.module.AutomaticRecipeUnlockModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.tweaks.module.ArmedArmorStandsModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.tools.module.TrowelModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.tools.module.SlimeInABucketModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.tools.module.SkullPikesModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.tools.module.SeedPouchModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.tools.module.PickarangModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.tools.module.PathfinderMapsModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.tools.module.ParrotEggsModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.tools.module.EndermoshMusicDiscModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.tools.module.ColorRunesModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.tools.module.CameraModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.tools.module.BundleRecipeModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.tools.module.BottledCloudModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.tools.module.BeaconRedirectionModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.tools.module.AncientTomesModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.tools.module.AmbientDiscsModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.tools.module.AbacusModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.mobs.module.WraithModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.mobs.module.ToretoiseModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.mobs.module.StonelingsModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.mobs.module.ShibaModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.mobs.module.FoxhoundModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.mobs.module.ForgottenModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.mobs.module.CrabsModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.management.module.QuickArmorSwappingModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.management.module.ItemSharingModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.management.module.InventorySortingModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.management.module.HotbarChangerModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.management.module.ExpandedItemInteractionsModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.management.module.EasyTransferingModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.experimental.module.SpawnerReplacerModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.experimental.module.SawModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.experimental.module.OverlayShaderModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.experimental.module.NarratorReadoutModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.experimental.module.GameNerfsModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.experimental.module.EnchantmentsBegoneModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.experimental.module.AdjustableChatModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.client.module.WoolShutsUpMinecartsModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.client.module.VariantAnimalTexturesModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.client.module.UsesForCursesModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.client.module.UsageTickerModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.client.module.SoulCandlesModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.client.module.MicrocraftingHelperModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.client.module.ImprovedTooltipsModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.client.module.GreenerGrassModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.client.module.ChestSearchingModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.client.module.BackButtonKeybind
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.client.module.AutoWalkKeybindModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.building.module.WoodenPostsModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.building.module.VerticalSlabsModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.building.module.VerticalPlanksModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.building.module.VariantLaddersModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.building.module.VariantFurnacesModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.building.module.VariantChestsModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.building.module.VariantBookshelvesModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.building.module.ThatchModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.building.module.SturdyStoneModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.building.module.StoolsModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.building.module.SoulSandstoneModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.building.module.ShinglesModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.building.module.ShearVinesModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.building.module.RopeModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.building.module.RawMetalBricksModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.building.module.NetherBrickFenceGateModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.building.module.MoreStoneVariantsModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.building.module.MorePottedPlantsModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.building.module.MoreBrickTypesModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.building.module.MidoriModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.building.module.LeafCarpetModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.building.module.JapanesePaletteModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.building.module.IndustrialPaletteModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.building.module.HedgesModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.building.module.GrateModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.building.module.GoldBarsModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.building.module.GlassItemFrameModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.building.module.FramedGlassModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.building.module.DuskboundBlocksModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.building.module.CompressedBlocksModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.building.module.CelebratoryLampsModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.automation.module.RedstoneRandomizerModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.automation.module.PistonsMoveTileEntitiesModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.automation.module.ObsidianPlateModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.automation.module.MetalButtonsModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.automation.module.JukeboxAutomationModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.automation.module.IronRodModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.automation.module.GravisandModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.automation.module.FeedingTroughModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.automation.module.EnderWatcherModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.automation.module.DispensersPlaceBlocksModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.automation.module.ChuteModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.content.automation.module.ChainsConnectBlocksModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.addons.oddities.module.TotemOfHoldingModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.addons.oddities.module.TinyPotatoModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.addons.oddities.module.PipesModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.addons.oddities.module.MatrixEnchantingModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.addons.oddities.module.MagnetsModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.addons.oddities.module.CrateModule
+[15:35:22] [modloading-worker-0/INFO]: Found Quark module class vazkii.quark.addons.oddities.module.BackpackModule
+[15:35:22] [modloading-worker-0/INFO]: Dispatching Module Step CONSTRUCT
+[15:35:22] [modloading-worker-0/INFO]: ExpandAbility here, who dis?
+[15:35:22] [modloading-worker-0/INFO]: Dispatching Module Step CONSTRUCT_CLIENT
+[15:35:23] [Render thread/INFO]: Dispatching Module Step REGISTER
+[15:35:24] [Render thread/INFO]: Dispatching Module Step POST_REGISTER
+[15:35:29] [Render thread/WARN]: Found block type with duplicate id (minecraft:oak), skipping
+[15:35:29] [Render thread/WARN]: Found block type with duplicate id (ecologics:azalea), skipping
+[15:35:29] [Render thread/WARN]: Found block type with duplicate id (ecologics:flowering_azalea), skipping
+[15:35:29] [Render thread/WARN]: Found block type with duplicate id (quark:azalea), skipping
+[15:35:29] [Render thread/WARN]: Found block type with duplicate id (minecraft:stone), skipping
+[15:35:29] [Render thread/WARN]: Found block type with duplicate id (minecraft:oak), skipping
+[15:35:29] [Render thread/WARN]: Found block type with duplicate id (biomesoplenty:origin), skipping
+[15:35:29] [Render thread/WARN]: Found block type with duplicate id (biomesoplenty:flowering_oak), skipping
+[15:35:29] [Render thread/WARN]: Found block type with duplicate id (biomesoplenty:rainbow_birch), skipping
+[15:35:29] [Render thread/WARN]: Found block type with duplicate id (biomesoplenty:yellow_autumn), skipping
+[15:35:29] [Render thread/WARN]: Found block type with duplicate id (biomesoplenty:orange_autumn), skipping
+[15:35:29] [Render thread/WARN]: Found block type with duplicate id (biomesoplenty:maple), skipping
+[15:35:29] [Render thread/INFO]: Initialized block sets in 33ms
+[15:35:29] [Render thread/INFO]: Registering Compat Wood Blocks
+[15:35:29] [Render thread/INFO]: Registering Compat Leaves Blocks
+[15:35:29] [Render thread/INFO]: Registered 856 compat blocks making up 9.890237% of total blocks registered
+[15:35:31] [Render thread/INFO]: Registering C2S receiver with id ae2wtlib:cycle_terminal
+[15:35:32] [Render thread/INFO]: Registered variant abstract_blue
+[15:35:32] [Render thread/INFO]: Registered variant abstract_rainbow
+[15:35:32] [Render thread/INFO]: Registered variant abstract_red
+[15:35:32] [Render thread/INFO]: Registered variant abstract_sunset
+[15:35:32] [Render thread/INFO]: Registered variant arachnophobe
+[15:35:32] [Render thread/INFO]: Registered variant barn_owl
+[15:35:32] [Render thread/INFO]: Registered variant big_z
+[15:35:32] [Render thread/INFO]: Registered variant blue_bird
+[15:35:32] [Render thread/INFO]: Registered variant bluesclues
+[15:35:32] [Render thread/INFO]: Registered variant borgia
+[15:35:32] [Render thread/INFO]: Registered variant cane
+[15:35:32] [Render thread/INFO]: Registered variant cat_black
+[15:35:32] [Render thread/INFO]: Registered variant cat_gray
+[15:35:32] [Render thread/INFO]: Registered variant cat_orange
+[15:35:32] [Render thread/INFO]: Registered variant cat
+[15:35:32] [Render thread/INFO]: Registered variant colorful_squares
+[15:35:32] [Render thread/INFO]: Registered variant crest
+[15:35:32] [Render thread/INFO]: Registered variant danger_zone
+[15:35:32] [Render thread/INFO]: Registered variant decorative_gun
+[15:35:32] [Render thread/INFO]: Registered variant exit_down
+[15:35:32] [Render thread/INFO]: Registered variant exit_up
+[15:35:32] [Render thread/INFO]: Registered variant exit_left
+[15:35:32] [Render thread/INFO]: Registered variant exit_right
+[15:35:32] [Render thread/INFO]: Registered variant face_bat
+[15:35:32] [Render thread/INFO]: Registered variant face_chicken
+[15:35:32] [Render thread/INFO]: Registered variant face_cow
+[15:35:32] [Render thread/INFO]: Registered variant face_creeper
+[15:35:32] [Render thread/INFO]: Registered variant face_dog
+[15:35:32] [Render thread/INFO]: Registered variant face_enderman
+[15:35:32] [Render thread/INFO]: Registered variant face_pig
+[15:35:32] [Render thread/INFO]: Registered variant face_pigman
+[15:35:32] [Render thread/INFO]: Registered variant face_silverfish
+[15:35:32] [Render thread/INFO]: Registered variant face_skeleton
+[15:35:32] [Render thread/INFO]: Registered variant face_squid
+[15:35:32] [Render thread/INFO]: Registered variant face_zombie
+[15:35:32] [Render thread/INFO]: Registered variant fishes
+[15:35:32] [Render thread/INFO]: Registered variant flowers
+[15:35:32] [Render thread/INFO]: Registered variant fruits
+[15:35:32] [Render thread/INFO]: Registered variant ghost
+[15:35:32] [Render thread/INFO]: Registered variant glowlamp
+[15:35:32] [Render thread/INFO]: Registered variant glowstone_hourglass
+[15:35:32] [Render thread/INFO]: Registered variant iluvmc
+[15:35:32] [Render thread/INFO]: Registered variant link
+[15:35:32] [Render thread/INFO]: Registered variant mine_prosperity
+[15:35:32] [Render thread/INFO]: Registered variant no_trespassing_for_mobs
+[15:35:32] [Render thread/INFO]: Registered variant ocelot
+[15:35:32] [Render thread/INFO]: Registered variant penguin
+[15:35:32] [Render thread/INFO]: Registered variant pig_on_a_cliff
+[15:35:32] [Render thread/INFO]: Registered variant pkmn_blue
+[15:35:32] [Render thread/INFO]: Registered variant pkmn_red
+[15:35:32] [Render thread/INFO]: Registered variant pkmn_green
+[15:35:32] [Render thread/INFO]: Registered variant plains_hut
+[15:35:32] [Render thread/INFO]: Registered variant portrait_2
+[15:35:32] [Render thread/INFO]: Registered variant portrait
+[15:35:32] [Render thread/INFO]: Registered variant prison
+[15:35:32] [Render thread/INFO]: Registered variant prosperity
+[15:35:32] [Render thread/INFO]: Registered variant rest
+[15:35:32] [Render thread/INFO]: Registered variant skeleton
+[15:35:32] [Render thread/INFO]: Registered variant sky
+[15:35:32] [Render thread/INFO]: Registered variant skyblock
+[15:35:32] [Render thread/INFO]: Registered variant snake
+[15:35:32] [Render thread/INFO]: Registered variant snow_landscape
+[15:35:32] [Render thread/INFO]: Registered variant subaraki
+[15:35:32] [Render thread/INFO]: Registered variant synth_city
+[15:35:32] [Render thread/INFO]: Registered variant tapistry_a
+[15:35:32] [Render thread/INFO]: Registered variant tapistry_b
+[15:35:32] [Render thread/INFO]: Registered variant tapistry_purple
+[15:35:32] [Render thread/INFO]: Registered variant torched
+[15:35:32] [Render thread/INFO]: Registered variant waterfall
+[15:35:32] [Render thread/INFO]: Registered variant whale
+[15:35:32] [Render thread/INFO]: Registered variant wheat_field
+[15:35:32] [Render thread/INFO]: Registered variant wolf_in_wheat
+[15:35:33] [Render thread/INFO]: Preparing Resource Pack injection.
+[15:35:33] [Render thread/INFO]: Loaded folder Resource Pack from C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\config\openloader\resources\Updated Engineering.
+[15:35:33] [Render thread/INFO]: Successfully injected 1/1 packs from C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\config\openloader\resources.
+[15:35:33] [Render thread/INFO]: loaded in block colorizer
+[15:35:33] [Render thread/INFO]: loaded in item colorizer
+[15:35:34] [Render thread/ERROR]: Some mod loaded the Sheets class to early! This causes the banner texture maps to not contain modded patterns. Supplementaries will not attempt to fix...
+[15:35:34] [Render thread/INFO]: Dispatching Module Step SETUP_CLIENT
+[15:35:35] [Render thread/INFO]: Registering model layer quark:crab#main
+[15:35:35] [Render thread/INFO]: Registering model layer quark:shiba#main
+[15:35:35] [Render thread/INFO]: Registering model layer quark:quark_boat_chest#main
+[15:35:35] [Render thread/INFO]: Registering model layer quark:wraith#main
+[15:35:35] [Render thread/INFO]: Registering model layer quark:forgotten_hat#main
+[15:35:35] [Render thread/INFO]: Registering model layer quark:stoneling#main
+[15:35:35] [Render thread/INFO]: Registering model layer quark:toretoise#main
+[15:35:35] [Render thread/INFO]: Registering model layer quark:quark_boat#main
+[15:35:35] [Render thread/INFO]: Registering model layer quark:foxhound#main
+[15:35:35] [Render thread/INFO]: Registering model layer quark:backpack#main
+[15:35:35] [Render thread/INFO]: Dispatching Module Step REGISTER_TOOLTIP_COMPONENT_FACTORIES
+[15:35:35] [Render thread/INFO]: Registering KeyMappings!
+[15:35:35] [Render thread/INFO]: Dispatching Module Step REGISTER_KEYBINDS
+[15:35:36] [Worker-Main-1/ERROR]: Failed to retrieve profile key pair
 java.io.IOException: Could not retrieve profile key pair
-	at net.minecraft.client.multiplayer.ProfileKeyPairManager.m_233789_(ProfileKeyPairManager.java:152) ~[client-1.19.2-20220805.130853-srg.jar%23149!/:?]
-	at net.minecraft.client.multiplayer.ProfileKeyPairManager.m_243396_(ProfileKeyPairManager.java:75) ~[client-1.19.2-20220805.130853-srg.jar%23149!/:?]
+	at net.minecraft.client.multiplayer.ProfileKeyPairManager.m_233789_(ProfileKeyPairManager.java:152) ~[client-1.19.2-20220805.130853-srg.jar%23531!/:?]
+	at net.minecraft.client.multiplayer.ProfileKeyPairManager.m_243396_(ProfileKeyPairManager.java:75) ~[client-1.19.2-20220805.130853-srg.jar%23531!/:?]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
 	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
@@ -101,140 +710,735 @@ java.io.IOException: Could not retrieve profile key pair
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
-[06:51:12] [Render thread/INFO]: Narrator library for x64 successfully loaded
-[06:51:12] [Render thread/INFO]: Reloading ResourceManager: Default, Mod Resources
-[06:51:12] [Render thread/INFO]: [OptiFine] *** Reloading textures ***
-[06:51:12] [Render thread/INFO]: [OptiFine] Resource packs: Mod Resources
-[06:51:12] [Render thread/WARN]: [OptiFine] Unknown resource pack file: mod_resources
-[06:51:12] [modloading-worker-0/WARN]: Configuration file C:\Users\tiago\AppData\Roaming\.minecraft\config\forge-client.toml is not correct. Correcting
-[06:51:12] [modloading-worker-0/WARN]: Incorrect key client was corrected from null to its default, SimpleCommentedConfig:{}. 
-[06:51:12] [modloading-worker-0/WARN]: Incorrect key client.alwaysSetupTerrainOffThread was corrected from null to its default, false. 
-[06:51:12] [modloading-worker-0/WARN]: Incorrect key client.experimentalForgeLightPipelineEnabled was corrected from null to its default, false. 
-[06:51:12] [modloading-worker-0/WARN]: Incorrect key client.showLoadWarnings was corrected from null to its default, true. 
-[06:51:12] [modloading-worker-0/WARN]: Incorrect key client.useCombinedDepthStencilAttachment was corrected from null to its default, false. 
-[06:51:12] [modloading-worker-0/WARN]: Incorrect key client.compressLanIPv6Addresses was corrected from null to its default, true. 
-[06:51:12] [modloading-worker-0/WARN]: Configuration file C:\Users\tiago\AppData\Roaming\.minecraft\config\forge-common.toml is not correct. Correcting
-[06:51:12] [modloading-worker-0/WARN]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
-[06:51:12] [modloading-worker-0/WARN]: Incorrect key general.cachePackAccess was corrected from null to its default, true. 
-[06:51:12] [modloading-worker-0/WARN]: Incorrect key general.indexVanillaPackCachesOnThread was corrected from null to its default, false. 
-[06:51:12] [modloading-worker-0/WARN]: Incorrect key general.indexModPackCachesOnThread was corrected from null to its default, false. 
-[06:51:12] [Worker-Main-6/INFO]: [OptiFine] Multitexture: false
-[06:51:12] [Worker-Main-2/INFO]: [OptiFine] Multitexture: false
-[06:51:12] [Worker-Main-5/INFO]: [OptiFine] Multitexture: false
-[06:51:12] [Render thread/INFO]: [OptiFine] *** Reflector Forge ***
-[06:51:13] [Forge Version Check/INFO]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[06:51:13] [Render thread/INFO]: [OptiFine] *** Reflector Vanilla ***
-[06:51:13] [Forge Version Check/INFO]: [forge] Found status: OUTDATED Current: 43.1.65 Target: 43.2.0
-[06:51:17] [Worker-Main-4/WARN]: [OptiFine] Unknown resource pack file: mod_resources
-[06:51:17] [Worker-Main-4/WARN]: [OptiFine] Unknown resource pack file: mod_resources
-[06:51:17] [Worker-Main-4/WARN]: [OptiFine] Unknown resource pack file: mod_resources
-[06:51:17] [Worker-Main-4/WARN]: [OptiFine] Unknown resource pack file: mod_resources
-[06:51:17] [Worker-Main-4/INFO]: [OptiFine] Multitexture: false
-[06:51:18] [Worker-Main-4/WARN]: [OptiFine] Unknown resource pack file: mod_resources
-[06:51:18] [Worker-Main-4/INFO]: [OptiFine] Multipass connected textures: false
-[06:51:18] [Worker-Main-4/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/00_glass_white/glass_pane_white.properties
-[06:51:18] [Worker-Main-4/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/00_glass_white/glass_white.properties
-[06:51:18] [Worker-Main-4/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/01_glass_orange/glass_orange.properties
-[06:51:18] [Worker-Main-4/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/01_glass_orange/glass_pane_orange.properties
-[06:51:18] [Worker-Main-4/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/02_glass_magenta/glass_magenta.properties
-[06:51:18] [Worker-Main-4/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/02_glass_magenta/glass_pane_magenta.properties
-[06:51:18] [Worker-Main-4/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/03_glass_light_blue/glass_light_blue.properties
-[06:51:18] [Worker-Main-4/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/03_glass_light_blue/glass_pane_light_blue.properties
-[06:51:18] [Worker-Main-4/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/04_glass_yellow/glass_pane_yellow.properties
-[06:51:18] [Worker-Main-4/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/04_glass_yellow/glass_yellow.properties
-[06:51:18] [Worker-Main-4/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/05_glass_lime/glass_lime.properties
-[06:51:18] [Worker-Main-4/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/05_glass_lime/glass_pane_lime.properties
-[06:51:18] [Worker-Main-4/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/06_glass_pink/glass_pane_pink.properties
-[06:51:18] [Worker-Main-4/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/06_glass_pink/glass_pink.properties
-[06:51:18] [Worker-Main-4/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/07_glass_gray/glass_gray.properties
-[06:51:18] [Worker-Main-4/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/07_glass_gray/glass_pane_gray.properties
-[06:51:18] [Worker-Main-4/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/08_glass_light_gray/glass_light_gray.properties
-[06:51:18] [Worker-Main-4/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/08_glass_light_gray/glass_pane_light_gray.properties
-[06:51:18] [Worker-Main-4/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/09_glass_cyan/glass_cyan.properties
-[06:51:18] [Worker-Main-4/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/09_glass_cyan/glass_pane_cyan.properties
-[06:51:18] [Worker-Main-4/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/10_glass_purple/glass_pane_purple.properties
-[06:51:18] [Worker-Main-4/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/10_glass_purple/glass_purple.properties
-[06:51:18] [Worker-Main-4/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/11_glass_blue/glass_blue.properties
-[06:51:18] [Worker-Main-4/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/11_glass_blue/glass_pane_blue.properties
-[06:51:18] [Worker-Main-4/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/12_glass_brown/glass_brown.properties
-[06:51:18] [Worker-Main-4/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/12_glass_brown/glass_pane_brown.properties
-[06:51:18] [Worker-Main-4/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/13_glass_green/glass_green.properties
-[06:51:18] [Worker-Main-4/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/13_glass_green/glass_pane_green.properties
-[06:51:18] [Worker-Main-4/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/14_glass_red/glass_pane_red.properties
-[06:51:18] [Worker-Main-4/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/14_glass_red/glass_red.properties
-[06:51:18] [Worker-Main-4/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/15_glass_black/glass_black.properties
-[06:51:18] [Worker-Main-4/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/15_glass_black/glass_pane_black.properties
-[06:51:18] [Worker-Main-4/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/20_glass/glass.properties
-[06:51:18] [Worker-Main-4/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/20_glass/glass_pane.properties
-[06:51:18] [Worker-Main-4/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/21_tinted_glass/tinted_glass.properties
-[06:51:18] [Worker-Main-4/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/30_bookshelf/bookshelf.properties
-[06:51:18] [Worker-Main-4/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/40_sandstone/sandstone.properties
-[06:51:18] [Worker-Main-4/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/41_red_sandstone/red_sandstone.properties
-[06:51:18] [Worker-Main-4/INFO]: [OptiFine] Multipass connected textures: false
-[06:51:18] [Worker-Main-4/INFO]: [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
-[06:51:20] [Worker-Main-4/INFO]: [OptiFine] Mipmap levels: 4
-[06:51:21] [Worker-Main-4/INFO]: [OptiFine] Multitexture: false
-[06:51:21] [Worker-Main-4/INFO]: [OptiFine] Sprite size: 64
-[06:51:21] [Worker-Main-4/INFO]: [OptiFine] Mipmap levels: 6
-[06:51:21] [Worker-Main-4/INFO]: [OptiFine] Scaled too small texture: minecraft:optifine/ctm/default/empty, 16 -> 64
-[06:51:21] [Worker-Main-4/WARN]: Unused frames in sprite minecraft:missingno: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
-[06:51:21] [Worker-Main-4/INFO]: [OptiFine] Multitexture: false
-[06:51:21] [Worker-Main-4/INFO]: [OptiFine] Sprite size: 64
-[06:51:21] [Worker-Main-4/INFO]: [OptiFine] Mipmap levels: 6
-[06:51:21] [Worker-Main-4/INFO]: [OptiFine] Scaled too small texture: minecraft:optifine/ctm/default/empty, 16 -> 64
-[06:51:21] [Worker-Main-4/WARN]: Unused frames in sprite minecraft:missingno: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
-[06:51:21] [Worker-Main-4/INFO]: [OptiFine] Multitexture: false
-[06:51:21] [Worker-Main-4/INFO]: [OptiFine] Sprite size: 64
-[06:51:21] [Worker-Main-4/INFO]: [OptiFine] Mipmap levels: 6
-[06:51:21] [Worker-Main-4/INFO]: [OptiFine] Scaled too small texture: minecraft:optifine/ctm/default/empty, 16 -> 64
-[06:51:21] [Worker-Main-4/WARN]: Unused frames in sprite minecraft:missingno: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
-[06:51:21] [Worker-Main-4/INFO]: [OptiFine] Multitexture: false
-[06:51:21] [Worker-Main-4/INFO]: [OptiFine] Sprite size: 64
-[06:51:21] [Worker-Main-4/INFO]: [OptiFine] Mipmap levels: 6
-[06:51:21] [Worker-Main-4/INFO]: [OptiFine] Scaled too small texture: minecraft:optifine/ctm/default/empty, 16 -> 64
-[06:51:21] [Worker-Main-4/WARN]: Unused frames in sprite minecraft:missingno: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
-[06:51:21] [Worker-Main-4/INFO]: [OptiFine] Multitexture: false
-[06:51:21] [Worker-Main-4/INFO]: [OptiFine] Sprite size: 64
-[06:51:21] [Worker-Main-4/INFO]: [OptiFine] Mipmap levels: 6
-[06:51:21] [Worker-Main-4/INFO]: [OptiFine] Scaled too small texture: minecraft:optifine/ctm/default/empty, 16 -> 64
-[06:51:21] [Worker-Main-4/WARN]: Unused frames in sprite minecraft:missingno: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
-[06:51:21] [Worker-Main-4/INFO]: [OptiFine] Multitexture: false
-[06:51:21] [Worker-Main-4/INFO]: [OptiFine] Sprite size: 64
-[06:51:21] [Worker-Main-4/INFO]: [OptiFine] Mipmap levels: 6
-[06:51:21] [Worker-Main-4/INFO]: [OptiFine] Scaled too small texture: minecraft:optifine/ctm/default/empty, 16 -> 64
-[06:51:21] [Worker-Main-4/WARN]: Unused frames in sprite minecraft:missingno: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
-[06:51:22] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
-[06:51:22] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[06:51:22] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Speakers (Logitech PRO X Wireless Gaming Headset)
-[06:51:22] [Render thread/INFO]: Sound engine started
-[06:51:23] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[06:51:23] [Render thread/INFO]: [OptiFine] Animated sprites: 51
-[06:51:23] [Render thread/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
-[06:51:23] [Render thread/INFO]: [OptiFine] Animated sprites: 0
-[06:51:23] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[06:51:23] [Render thread/INFO]: [OptiFine] Animated sprites: 0
-[06:51:23] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[06:51:23] [Render thread/INFO]: [OptiFine] Animated sprites: 0
-[06:51:23] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[06:51:23] [Render thread/INFO]: [OptiFine] Animated sprites: 0
-[06:51:23] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[06:51:23] [Render thread/INFO]: [OptiFine] Animated sprites: 0
-[06:51:23] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[06:51:23] [Render thread/INFO]: [OptiFine] Animated sprites: 0
-[06:51:24] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[06:51:24] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[06:51:24] [Render thread/INFO]: [OptiFine] Animated sprites: 1
-[06:51:24] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[06:51:24] [Render thread/INFO]: [OptiFine] Animated sprites: 0
-[06:51:24] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[06:51:24] [Render thread/INFO]: [OptiFine] Animated sprites: 0
-[06:51:24] [Render thread/INFO]: [OptiFine] *** Reloading custom textures ***
-[06:51:24] [Render thread/WARN]: [OptiFine] Unknown resource pack file: mod_resources
-[06:51:24] [Render thread/WARN]: [OptiFine] Unknown resource pack file: mod_resources
-[06:51:24] [Render thread/WARN]: [OptiFine] Unknown resource pack file: mod_resources
-[06:51:25] [Render thread/WARN]: [OptiFine] Unknown resource pack file: mod_resources
-[06:51:25] [Render thread/WARN]: [OptiFine] Unknown resource pack file: mod_resources
-[06:51:25] [Render thread/INFO]: [OptiFine] Disable Forge light pipeline
-[06:51:25] [Render thread/INFO]: [OptiFine] Set ForgeConfig.CLIENT.experimentalForgeLightPipelineEnabled=false
-[06:51:26] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
-[06:51:29] [Render thread/INFO]: Stopping!
+[15:35:36] [Render thread/INFO]: Narrator library for x64 successfully loaded
+[15:35:36] [Render thread/INFO]: Reloading ResourceManager: Default, Mod Resources, Everycomp Generated Pack, Supplementaries Generated Pack, V Slab Compat Generated Pack, quark-emote-pack, Updated Engineering, KubeJS Resource Pack [assets]
+[15:35:37] [Render thread/INFO]: Generated runtime CLIENT_RESOURCES for pack Supplementaries Generated Pack in: 602 ms
+[15:35:37] [Render thread/ERROR]: Failed to generate assets for Block{v_slab_compat:domum_ornamentum/shingle_vertical_slab}
+java.io.FileNotFoundException: Could not find any texture associated to the given block domum_ornamentum:shingle_slab
+	at net.mehvahdjukaar.moonlight.api.resources.RPUtils.findFirstBlockTextureLocation(RPUtils.java:96) ~[moonlight-1.19.2-2.1.15-forge.jar%23467!/:?]
+	at net.mehvahdjukaar.moonlight.api.resources.RPUtils.findFirstBlockTextureLocation(RPUtils.java:54) ~[moonlight-1.19.2-2.1.15-forge.jar%23467!/:?]
+	at net.mehvahdjukaar.vsc.dynamicpack.ClientDynamicResourcesHandler.regenerateDynamicAssets(ClientDynamicResourcesHandler.java:54) ~[v_slab_compat-1.19.2-1.0.jar%23522!/:?]
+	at net.mehvahdjukaar.moonlight.api.resources.pack.DynResourceProvider.reloadResources(DynResourceProvider.java:111) ~[moonlight-1.19.2-2.1.15-forge.jar%23467!/:?]
+	at net.mehvahdjukaar.moonlight.api.resources.pack.DynResourceProvider.onEarlyReload(DynResourceProvider.java:81) ~[moonlight-1.19.2-2.1.15-forge.jar%23467!/:?]
+	at net.mehvahdjukaar.moonlight.api.events.forge.MoonlightEventsHelperImpl.lambda$postEvent$4(MoonlightEventsHelperImpl.java:44) ~[moonlight-1.19.2-2.1.15-forge.jar%23467!/:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at net.mehvahdjukaar.moonlight.api.events.forge.MoonlightEventsHelperImpl.postEvent(MoonlightEventsHelperImpl.java:44) ~[moonlight-1.19.2-2.1.15-forge.jar%23467!/:?]
+	at net.mehvahdjukaar.moonlight.api.events.MoonlightEventsHelper.postEvent(MoonlightEventsHelper.java) ~[moonlight-1.19.2-2.1.15-forge.jar%23467!/:?]
+	at net.minecraft.server.packs.resources.MultiPackResourceManager.handler$cao000$dynamicPackEarlyReload(MultiPackResourceManager.java:534) ~[client-1.19.2-20220805.130853-srg.jar%23531!/:?]
+	at net.minecraft.server.packs.resources.MultiPackResourceManager.<init>(MultiPackResourceManager.java:61) ~[client-1.19.2-20220805.130853-srg.jar%23531!/:?]
+	at net.minecraft.server.packs.resources.ReloadableResourceManager.m_142463_(ReloadableResourceManager.java:44) ~[client-1.19.2-20220805.130853-srg.jar%23531!/:?]
+	at net.minecraft.client.Minecraft.<init>(Minecraft.java:577) ~[client-1.19.2-20220805.130853-srg.jar%23531!/:?]
+	at net.minecraft.client.main.Main.m_239872_(Main.java:176) ~[client-1.19.2-20220805.130853-srg.jar%23531!/:?]
+	at net.minecraft.client.main.Main.main(Main.java:51) ~[client-1.19.2-20220805.130853-srg.jar%23531!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$launchService$0(CommonClientLaunchHandler.java:27) ~[fmlloader-1.19.2-43.2.0.jar%2395!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%2382!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%2382!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%2382!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%2382!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%2382!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2382!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2382!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+[15:35:37] [Render thread/INFO]: Generated runtime CLIENT_RESOURCES for pack V Slab Compat Generated Pack in: 92 ms
+[15:35:37] [Render thread/INFO]: Generated runtime CLIENT_RESOURCES for pack Everycomp Generated Pack in: 482 ms
+[15:35:38] [Render thread/INFO]: Loaded default options for keymappings
+[15:35:39] [Worker-Main-3/INFO]: Dispatching Module Step TEXTURE_STITCH
+[15:35:39] [Worker-Main-1/INFO]: Dispatching Module Step TEXTURE_STITCH
+[15:35:39] [Worker-Main-2/INFO]: Dispatching Module Step TEXTURE_STITCH
+[15:35:39] [Worker-Main-7/INFO]: Dispatching Module Step TEXTURE_STITCH
+[15:35:39] [modloading-worker-0/WARN]: Configuration file C:\Users\tiago\AppData\Roaming\.tlauncher\.minecraft\config\rottencreatures-common.toml is not correct. Correcting
+[15:35:39] [modloading-worker-0/WARN]: Incorrect key Mob Spawns.Immortal Chance was corrected from 0.025 to its default, 0.025. 
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Redstone Randomizer
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Pistons Move Tile Entities
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Obsidian Plate
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Metal Buttons
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Jukebox Automation
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Iron Rod
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Gravisand
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Feeding Trough
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Ender Watcher
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Dispensers Place Blocks
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Chute
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Chains Connect Blocks
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Wooden Posts
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Vertical Slabs
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Vertical Planks
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Variant Ladders
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Variant Furnaces
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Variant Chests
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Variant Bookshelves
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Thatch
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Sturdy Stone
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Stools
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Soul Sandstone
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Shingles
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Shear Vines
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Rope
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Raw Metal Bricks
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Nether Brick Fence Gate
+[15:35:39] [modloading-worker-0/INFO]: Loading Module More Stone Variants
+[15:35:39] [modloading-worker-0/INFO]: Loading Module More Potted Plants
+[15:35:39] [modloading-worker-0/INFO]: Loading Module More Brick Types
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Midori
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Leaf Carpet
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Japanese Palette
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Industrial Palette
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Hedges
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Grate
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Gold Bars
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Glass Item Frame
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Framed Glass
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Duskbound Blocks
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Compressed Blocks
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Celebratory Lamps
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Quick Armor Swapping
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Item Sharing
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Inventory Sorting
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Hotbar Changer
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Expanded Item Interactions
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Easy Transfering
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Trowel
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Slime In A Bucket
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Seed Pouch
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Pickarang
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Pathfinder Maps
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Parrot Eggs
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Endermosh Music Disc
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Color Runes
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Camera
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Bundle Recipe
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Bottled Cloud
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Beacon Redirection
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Ancient Tomes
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Ambient Discs
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Abacus
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Zombie Villagers On Normal
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Villagers Follow Emeralds
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Vexes Die With Their Masters
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Utility Recipes
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Snow Golem Player Heads
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Simple Harvest
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Sign Editing
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Shulker Packing
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Safe Rabbits
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Replace Scaffolding
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Renewable Spore Blossoms
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Reacharound Placing
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Poison Potato Usage
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Pig Litters
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Pat The Dogs
+[15:35:39] [modloading-worker-0/INFO]: Loading Module More Note Block Sounds
+[15:35:39] [modloading-worker-0/INFO]: Loading Module More Banner Layers
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Lock Rotation
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Hoe Harvesting
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Grab Chickens
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Glass Shard
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Enhanced Ladders
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Emotes
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Dragon Scales
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Double Door Opening
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Compasses Work Everywhere
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Campfires Boost Elytra
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Better Elytra Rocket
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Automatic Recipe Unlock
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Armed Armor Stands
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Skull Pikes
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Spiral Spires
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Permafrost
+[15:35:39] [modloading-worker-0/INFO]: Loading Module No More Lava Pockets
+[15:35:39] [modloading-worker-0/INFO]: Loading Module New Stone Types
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Nether Obsidian Spikes
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Monster Box
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Glimmering Weald
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Fairy Rings
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Corundum
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Chorus Vegetation
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Blossom Trees
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Big Stone Clusters
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Azalea Wood
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Wraith
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Toretoise
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Stonelings
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Shiba
+[15:35:39] [modloading-worker-0/INFO]: Loading Module Foxhound
+[15:35:40] [modloading-worker-0/INFO]: Loading Module Forgotten
+[15:35:40] [modloading-worker-0/INFO]: Loading Module Crabs
+[15:35:40] [modloading-worker-0/INFO]: Loading Module Wool Shuts Up Minecarts
+[15:35:40] [modloading-worker-0/INFO]: Loading Module Variant Animal Textures
+[15:35:40] [modloading-worker-0/INFO]: Loading Module Uses For Curses
+[15:35:40] [modloading-worker-0/INFO]: Loading Module Usage Ticker
+[15:35:40] [modloading-worker-0/INFO]: Loading Module Soul Candles
+[15:35:40] [modloading-worker-0/INFO]: Loading Module Microcrafting Helper
+[15:35:40] [modloading-worker-0/INFO]: Loading Module Improved Tooltips
+[15:35:40] [modloading-worker-0/INFO]: Loading Module Greener Grass
+[15:35:40] [modloading-worker-0/INFO]: Loading Module Chest Searching
+[15:35:40] [modloading-worker-0/INFO]: Loading Module Back Button Keybind
+[15:35:40] [modloading-worker-0/INFO]: Loading Module Auto Walk Keybind
+[15:35:40] [modloading-worker-0/INFO]: Loading Module Spawner Replacer
+[15:35:40] [modloading-worker-0/INFO]: Loading Module Saw
+[15:35:40] [modloading-worker-0/INFO]: Loading Module Overlay Shader
+[15:35:40] [modloading-worker-0/INFO]: Loading Module Narrator Readout
+[15:35:40] [modloading-worker-0/INFO]: Loading Module Game Nerfs
+[15:35:40] [modloading-worker-0/INFO]: Loading Module Enchantments Begone
+[15:35:40] [modloading-worker-0/INFO]: Loading Module Adjustable Chat
+[15:35:40] [modloading-worker-0/INFO]: Loading Module Totem Of Holding
+[15:35:40] [modloading-worker-0/INFO]: Loading Module Tiny Potato
+[15:35:40] [modloading-worker-0/INFO]: Loading Module Pipes
+[15:35:40] [modloading-worker-0/INFO]: Loading Module Matrix Enchanting
+[15:35:40] [modloading-worker-0/INFO]: Loading Module Magnets
+[15:35:40] [modloading-worker-0/INFO]: Loading Module Crate
+[15:35:40] [modloading-worker-0/INFO]: Loading Module Backpack
+[15:35:40] [modloading-worker-0/INFO]: Dispatching Module Step CONFIG_CHANGED
+[15:35:40] [modloading-worker-0/INFO]: Dispatching Module Step CONFIG_CHANGED_CLIENT
+[15:35:41] [Worker-Main-4/WARN]: File quark:sounds/entity/frog/wednesday.ogg does not exist, cannot add it to event quark:entity.frog.wednesday
+[15:35:41] [Worker-Main-4/WARN]: File quark:sounds/entity/frog/die.ogg does not exist, cannot add it to event quark:entity.frog.die
+[15:35:41] [Worker-Main-4/WARN]: File quark:sounds/entity/frog/hurt1.ogg does not exist, cannot add it to event quark:entity.frog.hurt
+[15:35:41] [Worker-Main-4/WARN]: File quark:sounds/entity/frog/hurt2.ogg does not exist, cannot add it to event quark:entity.frog.hurt
+[15:35:41] [Worker-Main-4/WARN]: File quark:sounds/entity/frog/hurt3.ogg does not exist, cannot add it to event quark:entity.frog.hurt
+[15:35:41] [Worker-Main-4/WARN]: File quark:sounds/entity/frog/hurt4.ogg does not exist, cannot add it to event quark:entity.frog.hurt
+[15:35:41] [Worker-Main-4/WARN]: File quark:sounds/entity/frog/idle1.ogg does not exist, cannot add it to event quark:entity.frog.idle
+[15:35:41] [Worker-Main-4/WARN]: File quark:sounds/entity/frog/idle2.ogg does not exist, cannot add it to event quark:entity.frog.idle
+[15:35:41] [Worker-Main-4/WARN]: File quark:sounds/entity/frog/idle3.ogg does not exist, cannot add it to event quark:entity.frog.idle
+[15:35:41] [Worker-Main-4/WARN]: File quark:sounds/entity/frog/idle4.ogg does not exist, cannot add it to event quark:entity.frog.idle
+[15:35:42] [Worker-Main-4/INFO]: Dispatching Module Step TEXTURE_STITCH
+[15:35:47] [Worker-Main-6/WARN]: Exception loading blockstate definition: 'torchmaster:blockstates/invisible_light.json' missing model for variant: 'torchmaster:invisible_light#'
+[15:35:47] [Worker-Main-6/WARN]: Exception loading blockstate definition: 'torchmaster:blockstates/invisible_light.json' in resourcepack: 'Mod Resources': Neither 'variants' nor 'multipart' found
+[15:35:47] [Worker-Main-5/ERROR]: Using missing texture, file trolldom:textures/mob_effect/water_charge.png not found
+[15:35:47] [Worker-Main-5/ERROR]: Using missing texture, file trolldom:textures/mob_effect/fire_charge.png not found
+[15:35:47] [Worker-Main-6/WARN]: Exception loading blockstate definition: 'trolldom:blockstates/fire_shrine.json' missing model for variant: 'trolldom:fire_shrine#'
+[15:35:48] [Worker-Main-5/INFO]: Loading Open Parties and Claims!
+[15:35:48] [Worker-Main-7/INFO]: clickadv mod initialized
+[15:35:48] [Worker-Main-7/INFO]: Better Compatibility Checker setting up
+[15:35:48] [Worker-Main-5/INFO]: Dusk initialized
+[15:35:48] [Worker-Main-3/INFO]: Registered packet handler.
+[15:35:48] [Worker-Main-2/INFO]: Version 10.3.5 initializing...
+[15:35:48] [Worker-Main-5/INFO]: PneumaticCraft: Repressurized is loading!
+[15:35:48] [Worker-Main-3/INFO]: Shields up!
+[15:35:48] [Forge Version Check/INFO]: Global Forge version check system disabled, no further processing.
+[15:35:48] [Worker-Main-7/INFO]: Registered packet handler.
+[15:35:48] [Worker-Main-2/INFO]: Fake player readout: UUID = 46e82cd0-d480-3d48-800a-77431ede078e, name = [Mekanism]
+[15:35:48] [Worker-Main-2/INFO]: Mod loaded.
+[15:35:48] [Worker-Main-4/INFO]: Connectivity initialized
+[15:35:48] [Worker-Main-1/INFO]: Attempting to delete 1 files/folders defined in config
+[15:35:48] [Worker-Main-1/INFO]: lootintegrations mod initialized
+[15:35:48] [Worker-Main-4/INFO]: Loaded 'Mekanism: Generators' module.
+[15:35:48] [Worker-Main-1/INFO]: Loaded 'Mekanism: Additions' module.
+[15:35:48] [Worker-Main-3/INFO]: Registered packet handler.
+[15:35:48] [Worker-Main-2/INFO]: Loaded 'Mekanism: Tools' module.
+[15:35:48] [Modding Legacy/conjurer_illager/Supporters thread/INFO]: Attempting to load the Modding Legacy supporters list from https://moddinglegacy.com/supporters-changelogs/supporters.txt
+[15:35:48] [Worker-Main-2/INFO]: farsight_view mod initialized
+[15:35:48] [Immersive Engineering Contributors Thread/INFO]: Attempting to download special revolvers from GitHub
+[15:35:48] [Worker-Main-2/INFO]: Loading Dyed!
+[15:35:48] [Worker-Main-3/INFO]: Dispatching Module Step CONFIG_CHANGED
+[15:35:48] [Worker-Main-3/INFO]: Dispatching Module Step CONFIG_CHANGED_CLIENT
+[15:35:48] [Worker-Main-3/INFO]: Dispatching Module Step SETUP
+[15:35:48] [Worker-Main-7/INFO]: Bushier Flowers set up
+[15:35:49] [Modding Legacy/conjurer_illager/Supporters thread/INFO]: Successfully loaded the Modding Legacy supporters list.
+[15:35:49] [Render thread/INFO]: Finished mod setup in: 44 ms
+[15:35:49] [Render thread/INFO]: [structure_gel] Registering data for structure_gel:loot_table_alias
+[15:35:49] [Render thread/INFO]: [structure_gel] Registering data for structure_gel:data_handler_type
+[15:35:49] [Render thread/INFO]: [structure_gel] Registering data for structure_gel:dynamic_spawner
+[15:35:49] [Render thread/INFO]: [structure_gel] Registering data for structure_gel:jigsaw_type
+[15:35:49] [Render thread/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[15:35:49] [Render thread/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[15:35:49] [Render thread/INFO]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[15:35:49] [Render thread/INFO]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[15:35:49] [Render thread/INFO]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[15:35:49] [Render thread/INFO]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[15:35:49] [Render thread/INFO]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[15:35:49] [Render thread/ERROR]: Adding duplicate key 'ResourceKey[minecraft:worldgen/template_pool / minecraft:village/desert/houses]' to registry
+[15:35:49] [Render thread/ERROR]: Adding duplicate key 'ResourceKey[minecraft:worldgen/template_pool / minecraft:village/snowy/houses]' to registry
+[15:35:49] [Render thread/ERROR]: Adding duplicate key 'ResourceKey[minecraft:worldgen/template_pool / minecraft:village/plains/houses]' to registry
+[15:35:49] [Render thread/ERROR]: Adding duplicate key 'ResourceKey[minecraft:worldgen/template_pool / minecraft:village/savanna/houses]' to registry
+[15:35:49] [Render thread/ERROR]: Adding duplicate key 'ResourceKey[minecraft:worldgen/template_pool / minecraft:village/taiga/houses]' to registry
+[15:35:49] [Render thread/INFO]: Initialized color sets in 39ms
+[15:35:49] [Render thread/INFO]: Registered region ars_nouveau:overworld to index 4 for type OVERWORLD
+[15:35:49] [Worker-Main-2/INFO]: Initializing from client context
+[15:35:49] [Worker-Main-2/INFO]: Register client configuration screen
+[15:35:49] [Worker-Main-2/INFO]: Enqueue initialization work to main thread
+[15:35:49] [Worker-Main-2/INFO]: Initialized HolidayManager.
+[15:35:49] [Worker-Main-5/INFO]: Loading Xaero's Minimap - Stage 1/2
+[15:35:49] [Worker-Main-2/INFO]: Optifine compat disabled. Reason: waiting for optifine to catch up with vanilla
+[15:35:50] [Worker-Main-1/INFO]: Loading Xaero's World Map - Stage 1/2
+[15:35:50] [Worker-Main-3/INFO]: [KONKRETE] Client-side libs ready to use!
+[15:35:50] [Worker-Main-5/INFO]: Registering S2C receiver with id otyacraftengine:block_entity_instruction_return
+[15:35:50] [Worker-Main-5/INFO]: Registering S2C receiver with id otyacraftengine:item_instruction_return
+[15:35:50] [Worker-Main-4/INFO]: Registering S2C receiver with id iammusicplayer:music_sync
+[15:35:50] [Worker-Main-4/INFO]: Registering S2C receiver with id iammusicplayer:music_ring_ready
+[15:35:50] [Worker-Main-4/INFO]: Registering S2C receiver with id iammusicplayer:music_ring_state
+[15:35:50] [Worker-Main-5/INFO]: Registering S2C receiver with id ae2wtlib:update_wut
+[15:35:50] [Worker-Main-5/INFO]: Registering S2C receiver with id ae2wtlib:update_restock
+[15:35:50] [Worker-Main-5/INFO]: Registering S2C receiver with id ae2wtlib:restock_amounts
+[15:35:50] [Worker-Main-5/INFO]: Dispatching Module Step SETUP_CLIENT
+[15:35:50] [Worker-Main-5/INFO]: Bushier Flowers Client Setup set up
+[15:35:51] [Render thread/INFO]: Overwriting Minecraft WindowEventListener
+[15:35:51] [Render thread/INFO]: Overwrite finished
+[15:35:51] [Render thread/INFO]: Determining desktop environment
+[15:35:51] [Render thread/INFO]: Found desktop environment WINDOWS
+[15:35:51] [Render thread/INFO]: Refreshing fullscreen mode from config to de.nekeras.borderless.client.fullscreen.BorderlessFullscreenDisplay@473f0698
+[15:35:51] [Render thread/INFO]: Detected fullscreen mode change from null to de.nekeras.borderless.client.fullscreen.BorderlessFullscreenDisplay@473f0698
+[15:35:51] [Render thread/INFO]: Refreshing de.nekeras.borderless.client.fullscreen.BorderlessFullscreenDisplay@473f0698
+[15:35:51] [Render thread/INFO]: Resetting window attributes
+[15:35:51] [Render thread/INFO]: Enable window attribute DECORATED
+[15:35:51] [Render thread/INFO]: Enable window attribute AUTO_ICONIFY
+[15:35:51] [Render thread/INFO]: Done resetting window attributes
+[15:35:51] [Render thread/INFO]: Checking window input mode
+[15:35:51] [Render thread/INFO]: Detected normal cursor mode
+[15:35:51] [Render thread/INFO]: Done checking window input mode
+[15:35:51] [Render thread/INFO]: Cursor is at 1259x-402 (inside window: false)
+[15:35:51] [Render thread/INFO]: Done checking cursor position
+[15:35:51] [Render thread/INFO]: Loading Xaero's Minimap - Stage 2/2
+[15:35:51] [Render thread/INFO]: Xaero's Minimap: World Map found!
+[15:35:51] [Render thread/INFO]: Xaero's Minimap: Open Parties And Claims found!
+[15:35:51] [Render thread/INFO]: No Optifine!
+[15:35:51] [Render thread/INFO]: Xaero's Minimap: No Vivecraft!
+[15:35:52] [Render thread/INFO]: Loading Xaero's World Map - Stage 2/2
+[15:35:52] [Render thread/INFO]: New world map region cache hash code: 498226736
+[15:35:52] [Render thread/INFO]: Xaero's WorldMap Mod: Xaero's minimap found!
+[15:35:52] [Render thread/INFO]: Xaero's WorldMap Mod: Open Parties And Claims found!
+[15:35:52] [Render thread/INFO]: No Optifine!
+[15:35:52] [Render thread/INFO]: Xaero's World Map: No Vivecraft!
+[15:35:54] [Worker-Main-6/WARN]: Exception loading blockstate definition: 'v_slab_compat:blockstates/domum_ornamentum/shingle_vertical_slab.json' missing model for variant: 'v_slab_compat:domum_ornamentum/shingle_vertical_slab#type=south,waterlogged=false'
+[15:35:54] [Worker-Main-6/WARN]: Exception loading blockstate definition: 'v_slab_compat:blockstates/domum_ornamentum/shingle_vertical_slab.json' missing model for variant: 'v_slab_compat:domum_ornamentum/shingle_vertical_slab#type=double,waterlogged=false'
+[15:35:54] [Worker-Main-6/WARN]: Exception loading blockstate definition: 'v_slab_compat:blockstates/domum_ornamentum/shingle_vertical_slab.json' missing model for variant: 'v_slab_compat:domum_ornamentum/shingle_vertical_slab#type=north,waterlogged=true'
+[15:35:54] [Worker-Main-6/WARN]: Exception loading blockstate definition: 'v_slab_compat:blockstates/domum_ornamentum/shingle_vertical_slab.json' missing model for variant: 'v_slab_compat:domum_ornamentum/shingle_vertical_slab#type=east,waterlogged=true'
+[15:35:54] [Worker-Main-6/WARN]: Exception loading blockstate definition: 'v_slab_compat:blockstates/domum_ornamentum/shingle_vertical_slab.json' missing model for variant: 'v_slab_compat:domum_ornamentum/shingle_vertical_slab#type=east,waterlogged=false'
+[15:35:54] [Worker-Main-6/WARN]: Exception loading blockstate definition: 'v_slab_compat:blockstates/domum_ornamentum/shingle_vertical_slab.json' missing model for variant: 'v_slab_compat:domum_ornamentum/shingle_vertical_slab#type=north,waterlogged=false'
+[15:35:54] [Worker-Main-6/WARN]: Exception loading blockstate definition: 'v_slab_compat:blockstates/domum_ornamentum/shingle_vertical_slab.json' missing model for variant: 'v_slab_compat:domum_ornamentum/shingle_vertical_slab#type=west,waterlogged=true'
+[15:35:54] [Worker-Main-6/WARN]: Exception loading blockstate definition: 'v_slab_compat:blockstates/domum_ornamentum/shingle_vertical_slab.json' missing model for variant: 'v_slab_compat:domum_ornamentum/shingle_vertical_slab#type=double,waterlogged=true'
+[15:35:54] [Worker-Main-6/WARN]: Exception loading blockstate definition: 'v_slab_compat:blockstates/domum_ornamentum/shingle_vertical_slab.json' missing model for variant: 'v_slab_compat:domum_ornamentum/shingle_vertical_slab#type=south,waterlogged=true'
+[15:35:54] [Worker-Main-6/WARN]: Exception loading blockstate definition: 'v_slab_compat:blockstates/domum_ornamentum/shingle_vertical_slab.json' missing model for variant: 'v_slab_compat:domum_ornamentum/shingle_vertical_slab#type=west,waterlogged=false'
+[15:35:57] [Worker-Main-6/WARN]: Unable to load model: 'v_slab_compat:domum_ornamentum/shingle_vertical_slab#inventory' referenced from: v_slab_compat:domum_ornamentum/shingle_vertical_slab#inventory: java.io.FileNotFoundException: v_slab_compat:models/item/domum_ornamentum/shingle_vertical_slab.json
+[15:35:57] [Worker-Main-6/WARN]: Unable to load model: 'minecraft:cactem_spear' referenced from: cnb:cactem_spear#inventory: java.io.FileNotFoundException: minecraft:models/cactem_spear.json
+[15:35:57] [Worker-Main-6/WARN]: Unable to load model: 'decorative_blocks:blockstate_copy_item#inventory' referenced from: decorative_blocks:blockstate_copy_item#inventory: java.io.FileNotFoundException: decorative_blocks:models/item/blockstate_copy_item.json
+[15:35:57] [Worker-Main-6/INFO]: Dispatching Module Step REIGSTER_ADDITIONAL_MODELS
+[15:35:58] [Worker-Main-6/WARN]: Unable to load model: 'supplementaries:blocks/wall_lanterns/wall_lantern_gold' referenced from: supplementaries:blocks/wall_lanterns/wall_lantern_gold: java.io.FileNotFoundException: supplementaries:models/blocks/wall_lanterns/wall_lantern_gold.json
+[15:35:58] [Worker-Main-6/WARN]: Unable to load model: 'supplementaries:blocks/wall_lanterns/wall_lantern_copper' referenced from: supplementaries:blocks/wall_lanterns/wall_lantern_copper: java.io.FileNotFoundException: supplementaries:models/blocks/wall_lanterns/wall_lantern_copper.json
+[15:35:58] [Worker-Main-6/WARN]: Unable to load model: 'supplementaries:blocks/wall_lanterns/wall_lantern_brass' referenced from: supplementaries:blocks/wall_lanterns/wall_lantern_brass: java.io.FileNotFoundException: supplementaries:models/blocks/wall_lanterns/wall_lantern_brass.json
+[15:36:02] [Worker-Main-6/WARN]: Found 'parent' loop while loading model 'darkerdepths:block/potted_glowshroom' in chain: darkerdepths:block/potted_glowshroom -> darkerdepths:block/potted_glowshroom
+[15:36:04] [Worker-Main-6/WARN]: Unable to resolve texture reference: #missing in domum_ornamentum:block/doors/door_waffle_top_right_open_spec
+[15:36:04] [Worker-Main-6/WARN]: Unable to resolve texture reference: #missing in domum_ornamentum:block/trapdoors/trapdoor_waffle_spec
+[15:36:04] [Worker-Main-6/WARN]: Unable to resolve texture reference: #missing in darkerdepths:block/glowspurs
+[15:36:04] [Worker-Main-6/WARN]: Unable to resolve texture reference: #missing in domum_ornamentum:block/doors/door_waffle_top_left_spec
+[15:36:04] [Worker-Main-6/WARN]: Unable to resolve texture reference: #missing in railways:block/semaphore/block_full_flipped_down
+[15:36:04] [Worker-Main-6/WARN]: Unable to resolve texture reference: #3 in ars_nouveau:block/alteration_table
+[15:36:04] [Worker-Main-6/WARN]: Unable to resolve texture reference: #missing in domum_ornamentum:block/doors/door_waffle_top_left_open_spec
+[15:36:04] [Worker-Main-6/WARN]: Unable to resolve texture reference: #missing in railways:block/semaphore/block_full_down
+[15:36:04] [Worker-Main-6/WARN]: Unable to resolve texture reference: #missing in railways:block/track_casing/cr_o
+[15:36:04] [Worker-Main-6/WARN]: Unable to resolve texture reference: #missing in railways:block/semaphore/block_flipped_down
+[15:36:04] [Worker-Main-6/WARN]: Unable to resolve texture reference: #missing in domum_ornamentum:block/doors/door_waffle_top_right_spec
+[15:36:04] [Worker-Main-6/WARN]: Unable to resolve texture reference: #missing in railways:block/semaphore/block_full
+[15:36:04] [Worker-Main-6/WARN]: Unable to resolve texture reference: #missing in railways:block/semaphore/block
+[15:36:04] [Worker-Main-6/WARN]: Unable to resolve texture reference: #missing in railways:block/semaphore/block_flipped
+[15:36:04] [Worker-Main-6/WARN]: Unable to resolve texture reference: #down in ars_creo:block/starbuncle_wheel
+[15:36:04] [Worker-Main-6/WARN]: Unable to resolve texture reference: #up in ars_creo:block/starbuncle_wheel
+[15:36:04] [Worker-Main-6/WARN]: Unable to resolve texture reference: #north in ars_creo:block/starbuncle_wheel
+[15:36:04] [Worker-Main-6/WARN]: Unable to resolve texture reference: #south in ars_creo:block/starbuncle_wheel
+[15:36:04] [Worker-Main-6/WARN]: Unable to resolve texture reference: #west in ars_creo:block/starbuncle_wheel
+[15:36:04] [Worker-Main-6/WARN]: Unable to resolve texture reference: #east in ars_creo:block/starbuncle_wheel
+[15:36:04] [Worker-Main-6/WARN]: Unable to resolve texture reference: #missing in railways:block/semaphore/block_down
+[15:36:04] [Worker-Main-6/WARN]: Unable to resolve texture reference: #missing in railways:block/semaphore/block_full_flipped
+[15:36:04] [Worker-Main-6/WARN]: Unable to resolve texture reference: #missing in railways:item/semaphore
+[15:36:04] [Worker-Main-6/WARN]: Unable to resolve texture reference: #missing in multipiston:block/multipistonblock
+[15:36:04] [Worker-Main-6/WARN]: Unable to resolve texture reference: #missing in multipiston:item/multipistonblock
+[15:36:04] [Worker-Main-6/INFO]: Stitching Revolver Textures!
+[15:36:04] [Worker-Main-6/INFO]: Dispatching Module Step TEXTURE_STITCH
+[15:36:04] [Worker-Main-5/ERROR]: Using missing texture, file minecraft:textures/track_diag2_outlines/track_diag2_outline.xcf_center_top.png not found
+[15:36:05] [Worker-Main-3/ERROR]: Using missing texture, file minecraft:textures/track_diag2_outlines/track_diag2_outline.xcf_left_center.png not found
+[15:36:05] [Worker-Main-2/ERROR]: Using missing texture, file supplementaries:textures/items/sconce_nether_brass.png not found
+[15:36:05] [Worker-Main-5/ERROR]: Using missing texture, file supplementaries:textures/blocks/sconce_nether_brass.png not found
+[15:36:05] [Worker-Main-5/ERROR]: Using missing texture, file supplementaries:textures/blocks/sconce_fire_nether_brass.png not found
+[15:36:05] [Worker-Main-7/ERROR]: Using missing texture, file minecraft:textures/track_diag2_outlines/track_diag2_outline.xcf_right_top.png not found
+[15:36:05] [Worker-Main-1/ERROR]: Using missing texture, file minecraft:textures/track_diag2_outlines/track_diag2_outline.xcf_left_bottom.png not found
+[15:36:07] [Worker-Main-6/INFO]: Dispatching Module Step TEXTURE_STITCH
+[15:36:07] [Worker-Main-6/INFO]: Dispatching Module Step TEXTURE_STITCH
+[15:36:07] [Worker-Main-4/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/runelic/runelic_comma.png not found
+[15:36:07] [Worker-Main-1/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/runelic/runelic_slash.png not found
+[15:36:07] [Worker-Main-1/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/immersiveengineering/bevels.png not found
+[15:36:07] [Worker-Main-3/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/immersiveengineering/ornate.png not found
+[15:36:07] [Worker-Main-5/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/twilightforest/quest_ram.png not found
+[15:36:07] [Worker-Main-4/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/runelic/runelic_left_bracket.png not found
+[15:36:07] [Worker-Main-7/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/runelic/runelic_period.png not found
+[15:36:07] [Worker-Main-7/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/immersiveengineering/hammer.png not found
+[15:36:07] [Worker-Main-3/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/runelic/runelic_plus.png not found
+[15:36:07] [Worker-Main-1/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/runelic/runelic_and.png not found
+[15:36:07] [Worker-Main-5/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/runelic/runelic_dash.png not found
+[15:36:07] [Worker-Main-3/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/immersiveengineering/wolf.png not found
+[15:36:07] [Worker-Main-3/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/cave_enhancements/goop.png not found
+[15:36:07] [Worker-Main-3/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/twilightforest/lich.png not found
+[15:36:07] [Worker-Main-1/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/twilightforest/snow_queen.png not found
+[15:36:07] [Worker-Main-3/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/immersiveengineering/windmill.png not found
+[15:36:07] [Worker-Main-3/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/runelic/runelic_quote.png not found
+[15:36:07] [Worker-Main-3/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/alexsmobs/brazil.png not found
+[15:36:07] [Worker-Main-2/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/runelic/runelic_apostrophe.png not found
+[15:36:07] [Worker-Main-1/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/runelic/runelic_6.png not found
+[15:36:07] [Worker-Main-3/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/runelic/runelic_5.png not found
+[15:36:07] [Worker-Main-1/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/runelic/runelic_3.png not found
+[15:36:07] [Worker-Main-7/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/runelic/runelic_4.png not found
+[15:36:07] [Worker-Main-1/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/runelic/runelic_2.png not found
+[15:36:07] [Worker-Main-3/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/runelic/runelic_1.png not found
+[15:36:07] [Worker-Main-1/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/twilightforest/alpha_yeti.png not found
+[15:36:07] [Worker-Main-3/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/runelic/runelic_0.png not found
+[15:36:07] [Worker-Main-1/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/twilightforest/knight_phantom.png not found
+[15:36:07] [Worker-Main-1/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/runelic/runelic_asterisk.png not found
+[15:36:07] [Worker-Main-1/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/neapolitan/chimpanzee.png not found
+[15:36:07] [Worker-Main-1/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/twilightforest/minoshroom.png not found
+[15:36:07] [Worker-Main-2/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/runelic/runelic_right_bracket.png not found
+[15:36:07] [Worker-Main-2/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/runelic/runelic_m.png not found
+[15:36:07] [Worker-Main-2/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/runelic/runelic_n.png not found
+[15:36:07] [Worker-Main-2/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/runelic/runelic_k.png not found
+[15:36:07] [Worker-Main-2/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/runelic/runelic_l.png not found
+[15:36:07] [Worker-Main-2/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/runelic/runelic_i.png not found
+[15:36:07] [Worker-Main-2/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/runelic/runelic_j.png not found
+[15:36:07] [Worker-Main-2/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/runelic/runelic_g.png not found
+[15:36:07] [Worker-Main-4/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/runelic/runelic_h.png not found
+[15:36:07] [Worker-Main-4/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/runelic/runelic_dollar.png not found
+[15:36:07] [Worker-Main-4/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/runelic/runelic_u.png not found
+[15:36:07] [Worker-Main-4/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/runelic/runelic_v.png not found
+[15:36:07] [Worker-Main-4/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/runelic/runelic_s.png not found
+[15:36:07] [Worker-Main-2/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/runelic/runelic_t.png not found
+[15:36:07] [Worker-Main-3/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/runelic/runelic_r.png not found
+[15:36:07] [Worker-Main-3/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/runelic/runelic_o.png not found
+[15:36:07] [Worker-Main-2/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/runelic/runelic_p.png not found
+[15:36:07] [Worker-Main-1/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/runelic/runelic_q.png not found
+[15:36:07] [Worker-Main-1/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/runelic/runelic_hashtag.png not found
+[15:36:07] [Worker-Main-1/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/runelic/runelic_e.png not found
+[15:36:07] [Worker-Main-1/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/runelic/runelic_f.png not found
+[15:36:07] [Worker-Main-5/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/runelic/runelic_c.png not found
+[15:36:07] [Worker-Main-3/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/immersiveengineering/treated_wood.png not found
+[15:36:07] [Worker-Main-5/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/runelic/runelic_d.png not found
+[15:36:07] [Worker-Main-3/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/runelic/runelic_a.png not found
+[15:36:07] [Worker-Main-3/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/runelic/runelic_b.png not found
+[15:36:07] [Worker-Main-7/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/twilightforest/hydra.png not found
+[15:36:07] [Worker-Main-7/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/runelic/runelic_9.png not found
+[15:36:07] [Worker-Main-7/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/runelic/runelic_7.png not found
+[15:36:07] [Worker-Main-7/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/twilightforest/ur_ghast.png not found
+[15:36:07] [Worker-Main-7/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/runelic/runelic_8.png not found
+[15:36:07] [Worker-Main-7/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/immersiveengineering/wolf_l.png not found
+[15:36:07] [Worker-Main-7/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/immersiveengineering/wolf_r.png not found
+[15:36:07] [Worker-Main-2/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/runelic/runelic_exclamation.png not found
+[15:36:07] [Worker-Main-2/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/twilightforest/naga.png not found
+[15:36:07] [Worker-Main-3/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/runelic/runelic_z.png not found
+[15:36:07] [Worker-Main-1/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/runelic/runelic_y.png not found
+[15:36:07] [Worker-Main-3/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/runelic/runelic_w.png not found
+[15:36:07] [Worker-Main-1/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/runelic/runelic_x.png not found
+[15:36:07] [Worker-Main-1/ERROR]: Using missing texture, file supplementaries:textures/entity/flags/runelic/runelic_percent.png not found
+[15:36:07] [Worker-Main-6/INFO]: Dispatching Module Step TEXTURE_STITCH
+[15:36:07] [Worker-Main-6/INFO]: Dispatching Module Step TEXTURE_STITCH
+[15:36:07] [Worker-Main-6/INFO]: Dispatching Module Step TEXTURE_STITCH
+[15:36:07] [Worker-Main-6/INFO]: Dispatching Module Step TEXTURE_STITCH
+[15:36:08] [Render thread/INFO]: Painting transparency set to: true
+[15:36:08] [Render thread/INFO]: Item Frame transparency set to: true
+[15:36:08] [Render thread/INFO]: Beacon Beam transparency set to: false
+[15:36:08] [Render thread/INFO]: Loaded all shader sources.
+[15:36:08] [Render thread/INFO]: Loaded 9 journal_lang
+[15:36:08] [Worker-Main-3/INFO]: Dispatching Module Step LOAD_COMPLETE
+[15:36:08] [Worker-Main-4/INFO]: Applying mega torch entity block list overrides...
+[15:36:08] [Worker-Main-4/INFO]: Applying dread lamp entity block list overrides...
+[15:36:08] [Worker-Main-2/INFO]: Loaded values for 30 compatible attributes.
+[15:36:08] [Worker-Main-2/INFO]: Loaded 30 values from config.
+[15:36:08] [Worker-Main-7/INFO]: Start loading plugin at snownee.jade.addon.create.CreatePlugin
+[15:36:08] [Worker-Main-2/INFO]: Saving config file. 30 entries.
+[15:36:08] [Worker-Main-2/INFO]: Applying changes for 30 attributes.
+[15:36:08] [Worker-Main-1/WARN]: Register mappings
+[15:36:08] [Worker-Main-7/INFO]: Start loading plugin at mekanism.common.integration.lookingat.jade.MekanismJadePlugin
+[15:36:08] [Worker-Main-7/INFO]: Start loading plugin at me.desht.pneumaticcraft.common.thirdparty.waila.WailaRegistration
+[15:36:08] [Worker-Main-7/INFO]: Start loading plugin at twilightforest.compat.jade.JadeCompat
+[15:36:08] [Worker-Main-7/INFO]: Start loading plugin at net.blay09.mods.waystones.compat.ForgeJadeWaystonesPlugin
+[15:36:08] [Worker-Main-7/INFO]: Start loading plugin at blusunrize.immersiveengineering.common.util.compat.jade.IEWailaPlugin
+[15:36:08] [Worker-Main-7/INFO]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[15:36:08] [Worker-Main-7/INFO]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[15:36:08] [Worker-Main-7/INFO]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[15:36:08] [Worker-Main-7/INFO]: Start loading plugin at appeng.integration.modules.jade.JadeModule
+[15:36:08] [Worker-Main-7/INFO]: Start loading plugin at me.ramidzkh.mekae2.integration.jade.AMJadePlugin
+[15:36:08] [Render thread/INFO]: Loaded default options for keymappings
+[15:36:08] [Render thread/INFO]: Successfully loaded config provider: com.mrcrayfish.configured.impl.forge.ForgeConfigProvider
+[15:36:08] [Render thread/INFO]: Successfully loaded config provider: com.mrcrayfish.configured.impl.simple.SimpleConfigProvider
+[15:36:08] [Render thread/INFO]: Successfully loaded config provider: com.anthonyhilyard.iceberg.compat.configured.IcebergConfigProvider
+[15:36:08] [Render thread/INFO]: Creating config GUI factories...
+[15:36:08] [Render thread/INFO]: Registering config factory for mod betterdungeons. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod alexsmobs. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod openpartiesandclaims. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod integratedterminals. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod pitg. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod neat. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod guardvillagers. Found 2 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod savage_and_ravage. Found 2 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod clickadv. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod labels. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod jeresources. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod structure_gel. Found 2 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod advancementplaques. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod torchmaster. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod bcc. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod biomesoplenty. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod fairylights. Found 2 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod curios. Found 2 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod framedblocks. Found 3 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod littlelogistics. Found 3 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod bettermineshafts. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod dusk. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod mining_helmet. Found 2 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod jei. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod goblintraders. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod mekanism. Found 8 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod fallingleaves. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod naturescompass. Found 2 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod pneumaticcraft. Found 2 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod cofh_core. Found 2 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod ars_nouveau. Found 76 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod forge. Found 3 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod neapolitan. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod integratedcrafting. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod logprot. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod simplebackups. Found 2 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod immersiveengineering. Found 3 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod paintings. Found 2 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod farmersrespite. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod flywheel. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod ecologics. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod integrateddynamics. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod serverconfigupdater. Found 2 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod structurize. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod appleskin. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod domesticationinnovation. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod defaultoptions. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod cyclopscore. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod blue_skies. Found 2 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod advancedperipherals. Found 4 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod sophisticatedcore. Found 2 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod kleeslabs. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod citadel. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod lootintegrations. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod sophisticatedbackpacks. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod jeed. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod mekanismgenerators. Found 3 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod railways. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod allurement. Found 2 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod carryon. Found 2 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod twilightforest. Found 2 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod equipmentcompare. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod farmersdelight. Found 2 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod commoncapabilities. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod mekanismadditions. Found 2 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod rapid_leaf_decay. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod patchouli. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod woodworks. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod integratedtunnels. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod elevatorid. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod betterstrongholds. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod mekanismtools. Found 2 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod ars_creo. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod computercraft. Found 2 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod aiimprovements. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod sullysmod. Found 2 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod effortlessbuilding. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod betteradvancements. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod trashslot. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod buzzier_bees. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod berry_good. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod conjurer_illager. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod reap. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod ensorcellation. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod waystones. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod artifacts. Found 3 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod configured. Found 2 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod decorative_blocks. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod everycomp. Found 2 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod integrateddynamicscompat. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod farsight_view. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod blueprint. Found 2 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod akashictome. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod seasonals. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod craftingtweaks. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod rottencreatures. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod mutil. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod abnormals_delight. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod fluxnetworks. Found 3 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod minecolonies. Found 3 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod hunterillager. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod engineersdecor. Found 2 config(s)
+[15:36:08] [Render thread/INFO]: Registering config factory for mod create_enchantment_industry. Found 1 config(s)
+[15:36:08] [Render thread/INFO]: Registered region quark:biome_provider to index 5 for type OVERWORLD
+[15:36:18] [Render thread/INFO]: Music engine reloaded
+[15:36:18] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[15:36:18] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[15:36:18] [Render thread/WARN]: Missing sound for event: supplementaries:item.wrench.hit
+[15:36:18] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Speakers (Logitech PRO X Wireless Gaming Headset)
+[15:36:18] [Render thread/INFO]: Sound engine started
+[15:36:19] [Render thread/INFO]: Endimation Loader has loaded 1 endimations
+[15:36:19] [Render thread/INFO]: Created: 4096x2048x0 minecraft:textures/atlas/blocks.png-atlas
+[15:36:19] [Render thread/INFO]: Dispatching Module Step POST_TEXTURE_STITCH
+[15:36:19] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/signs.png-atlas
+[15:36:19] [Render thread/INFO]: Dispatching Module Step POST_TEXTURE_STITCH
+[15:36:19] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
+[15:36:19] [Render thread/INFO]: Dispatching Module Step POST_TEXTURE_STITCH
+[15:36:19] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
+[15:36:19] [Render thread/INFO]: Dispatching Module Step POST_TEXTURE_STITCH
+[15:36:19] [Render thread/INFO]: Created: 2048x1024x0 minecraft:textures/atlas/chest.png-atlas
+[15:36:19] [Render thread/INFO]: Dispatching Module Step POST_TEXTURE_STITCH
+[15:36:19] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/shulker_boxes.png-atlas
+[15:36:19] [Render thread/INFO]: Dispatching Module Step POST_TEXTURE_STITCH
+[15:36:19] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/beds.png-atlas
+[15:36:19] [Render thread/INFO]: Dispatching Module Step POST_TEXTURE_STITCH
+[15:36:20] [Render thread/WARN]: Model "cave_enhancements:amethyst_flute#inventory" is using the deprecated loader "forge:separate-perspective" instead of "forge:separate_transforms". This loader will be removed in 1.20.
+[15:36:22] [Render thread/WARN]: Model "darkerdepths:glowshroom_cap#inventory" is using the deprecated loader "forge:separate-perspective" instead of "forge:separate_transforms". This loader will be removed in 1.20.
+[15:36:23] [Render thread/WARN]: Model "minecolonies:spear#inventory" is using the deprecated loader "forge:separate-perspective" instead of "forge:separate_transforms". This loader will be removed in 1.20.
+[15:36:23] [Render thread/WARN]: Model "rottencreatures:spear#inventory" is using the deprecated loader "forge:separate-perspective" instead of "forge:separate_transforms". This loader will be removed in 1.20.
+[15:36:25] [Render thread/INFO]: Dispatching Module Step MODEL_BAKE
+[15:36:26] [Render thread/WARN]: Could not apply rainbow color layer to littlelogistics:barge, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply rainbow color layer to littlelogistics:chunk_loader_barge, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply rainbow color layer to littlelogistics:fishing_barge, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply rainbow color layer to littlelogistics:fluid_barge, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply rainbow color layer to littlelogistics:seater_barge, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply rainbow color layer to littlelogistics:tug, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply rainbow color layer to littlelogistics:energy_tug, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply rainbow color layer to twilightforest:plateau_boss, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply rainbow color layer to twilightforest:roving_cube, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply rainbow color layer to cnb:little_grebe, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply rainbow color layer to cnb:lizard, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply rainbow color layer to cnb:lilytad, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply rainbow color layer to cnb:sporeling, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply rainbow color layer to cnb:minipad, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply rainbow color layer to cnb:end_whale, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply rainbow color layer to cnb:cactem, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply rainbow color layer to cnb:yeti, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply rainbow color layer to cnb:cindershell, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply rainbow color layer to ars_nouveau:bookwyrm, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply rainbow color layer to ars_nouveau:starbuncle, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply rainbow color layer to ars_nouveau:whirlisprig, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply rainbow color layer to ars_nouveau:wixie, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply rainbow color layer to ars_nouveau:wilden_hunter, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply rainbow color layer to ars_nouveau:wilden_stalker, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply rainbow color layer to ars_nouveau:wilden_guardian, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply rainbow color layer to ars_nouveau:wilden_boss, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply rainbow color layer to ars_nouveau:drygmy, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply rainbow color layer to ars_nouveau:familiar_starbuncle, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply rainbow color layer to ars_nouveau:familiar_wixie, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply rainbow color layer to ars_nouveau:familiar_bookwyrm, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply rainbow color layer to ars_nouveau:familiar_drygmy, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply rainbow color layer to ars_nouveau:familiar_whirlisprig, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply rainbow color layer to ars_nouveau:familiar_jabberwog, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply rainbow color layer to ars_nouveau:cascading_weald_walker, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply rainbow color layer to ars_nouveau:flourishing_weald_walker, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply rainbow color layer to ars_nouveau:blazing_weald_walker, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply rainbow color layer to ars_nouveau:vexing_weald_walker, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply rainbow color layer to ars_nouveau:amethyst_golem, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply rainbow color layer to ars_nouveau:gift_starby, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply rainbow color layer to sullysmod:copper_golem, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply rainbow color layer to sullysmod:tortoise, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to littlelogistics:barge, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to littlelogistics:chunk_loader_barge, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to littlelogistics:fishing_barge, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to littlelogistics:fluid_barge, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to littlelogistics:seater_barge, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to littlelogistics:tug, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to littlelogistics:energy_tug, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to twilightforest:plateau_boss, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to twilightforest:roving_cube, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to cnb:little_grebe, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to cnb:lizard, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to cnb:lilytad, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to cnb:sporeling, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to cnb:minipad, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to cnb:end_whale, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to cnb:cactem, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to cnb:yeti, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to cnb:cindershell, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to ars_nouveau:bookwyrm, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to ars_nouveau:starbuncle, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to ars_nouveau:whirlisprig, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to ars_nouveau:wixie, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to ars_nouveau:wilden_hunter, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to ars_nouveau:wilden_stalker, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to ars_nouveau:wilden_guardian, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to ars_nouveau:wilden_boss, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to ars_nouveau:drygmy, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to ars_nouveau:familiar_starbuncle, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to ars_nouveau:familiar_wixie, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to ars_nouveau:familiar_bookwyrm, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to ars_nouveau:familiar_drygmy, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to ars_nouveau:familiar_whirlisprig, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to ars_nouveau:familiar_jabberwog, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to ars_nouveau:cascading_weald_walker, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to ars_nouveau:flourishing_weald_walker, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to ars_nouveau:blazing_weald_walker, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to ars_nouveau:vexing_weald_walker, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to ars_nouveau:amethyst_golem, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to ars_nouveau:gift_starby, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to sullysmod:copper_golem, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to sullysmod:tortoise, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to littlelogistics:barge, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to littlelogistics:chunk_loader_barge, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to littlelogistics:fishing_barge, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to littlelogistics:fluid_barge, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to littlelogistics:seater_barge, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to littlelogistics:tug, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to littlelogistics:energy_tug, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to twilightforest:plateau_boss, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to twilightforest:roving_cube, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to cnb:little_grebe, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to cnb:lizard, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to cnb:lilytad, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to cnb:sporeling, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to cnb:minipad, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to cnb:end_whale, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to cnb:cactem, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to cnb:yeti, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to cnb:cindershell, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to ars_nouveau:bookwyrm, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to ars_nouveau:starbuncle, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to ars_nouveau:whirlisprig, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to ars_nouveau:wixie, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to ars_nouveau:wilden_hunter, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to ars_nouveau:wilden_stalker, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to ars_nouveau:wilden_guardian, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to ars_nouveau:wilden_boss, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to ars_nouveau:drygmy, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to ars_nouveau:familiar_starbuncle, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to ars_nouveau:familiar_wixie, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to ars_nouveau:familiar_bookwyrm, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to ars_nouveau:familiar_drygmy, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to ars_nouveau:familiar_whirlisprig, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to ars_nouveau:familiar_jabberwog, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to ars_nouveau:cascading_weald_walker, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to ars_nouveau:flourishing_weald_walker, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to ars_nouveau:blazing_weald_walker, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to ars_nouveau:vexing_weald_walker, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to ars_nouveau:amethyst_golem, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to ars_nouveau:gift_starby, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to sullysmod:copper_golem, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/WARN]: Could not apply pet overlays layer to sullysmod:tortoise, has custom renderer that is not LivingEntityRenderer.
+[15:36:26] [Render thread/INFO]: Dispatching Module Step MODEL_LAYERS
+[15:36:26] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[15:36:26] [Render thread/WARN]: Shader cofh_core:particle_over could not find sampler named Sampler2 in the specified shader program.
+[15:36:26] [Render thread/WARN]: Shader cofh_core:particle_add could not find sampler named Sampler2 in the specified shader program.
+[15:36:26] [Render thread/WARN]: Shader cofh_core:particle_screen could not find sampler named Sampler2 in the specified shader program.
+[15:36:27] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/particles.png-atlas
+[15:36:27] [Render thread/INFO]: Dispatching Module Step POST_TEXTURE_STITCH
+[15:36:27] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[15:36:27] [Render thread/INFO]: Dispatching Module Step POST_TEXTURE_STITCH
+[15:36:27] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/mob_effects.png-atlas
+[15:36:27] [Render thread/INFO]: Dispatching Module Step POST_TEXTURE_STITCH
+[15:36:27] [Render thread/INFO]: Created: 256x128x0 jei:textures/atlas/gui.png-atlas
+[15:36:27] [Render thread/INFO]: Dispatching Module Step POST_TEXTURE_STITCH
+[15:36:27] [Render thread/INFO]: Created: 512x256x0 mekanism:textures/atlas/robit.png-atlas
+[15:36:27] [Render thread/INFO]: Dispatching Module Step POST_TEXTURE_STITCH
+[15:36:27] [Render thread/INFO]: Successfully reloaded the minimap shaders!
+[15:36:27] [Render thread/INFO]: Successfully reloaded the world map shaders!
+[15:36:27] [Render thread/INFO]: BookContentResourceListenerLoader preloaded 237 jsons
+[15:36:27] [Render thread/INFO]: Not reloading resource pack-based books as client world is missing
+[15:36:27] [Render thread/WARN]: Page ae2:features/crystals.md references an unknown item ae2:quartz_ore in its item_ids frontmatter
+[15:36:27] [Render thread/WARN]: Key conflict in index Item Index: ae2:fluix_pearl is used by pages ae2:materials/fluix_pearl.md (from Mod Resources) and Record[pageId=ae2:features/me-network/wireless-access.md, value=PageAnchor[pageId=ae2:features/me-network/wireless-access.md, anchor=null]]
+[15:36:27] [Render thread/INFO]: Blueprint Splash Manager has loaded 0 splashes
+[15:36:27] [Render thread/INFO]: Initializing bushierflowers Mixins
+[15:36:27] [Render thread/INFO]: Initializing bushierflowers Mixins
+[15:36:27] [Render thread/INFO]: Loaded AmbientEngine 'basic' v2.1.5. 11 dimension(s), 8 features, 9 groups, 31 regions, 57 sounds, 4 solids and 2 biome types
+[15:36:27] [Render thread/INFO]: Dispatching Module Step FIRST_CLIENT_TICK
+[15:36:35] [Render thread/INFO]: Initializing bushierflowers Mixins
+[15:36:48] [Render thread/INFO]: Stopping!
+[15:36:48] [Render thread/INFO]: Released client Flux Networks cache
