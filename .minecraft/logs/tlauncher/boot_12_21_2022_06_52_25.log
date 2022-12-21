@@ -1,0 +1,68 @@
+
+-------------------------------------------------------------------
+[Downloader2] Loaded configuration: normal
+[Bootstrapper] createLauncher
+[Bootstrapper] choose jvm:C:\Users\tiago\AppData\Roaming\.tlauncher\jvms\jre1.8.0_281\bin\javaw.exe
+[Bootstrapper] validate files
+[Bootstrapper] end validated files
+[Bootstrapper] Starting launcher...
+[Double running] clear time label
+> Loading configuration from file: C:\Users\tiago\AppData\Roaming\.tlauncher\tlauncher-2.0.properties
+> [Configuration] Constant values: {}
+> [Loading] INITIALIZING
+> Starting TLauncher 2.86 RELEASE
+> For more information, visit https://tlauncher.org/
+> Startup time: 21/dez/2022 6:52:27
+> Running folder C:\Users\tiago\Desktop
+> ---
+> [Loading] LOADING_CONFIGURATION
+> Machine info: -------------------------------------------------------
+> Windows 10 10.0, Java 1.8.0_281, jvm bit x64, 16335 MB RAM
+> java path=C:\Users\tiago\AppData\Roaming\.tlauncher\jvms\jre1.8.0_281\bin\javaw.exe
+> AMD Ryzen 3 3100 4-Core Processor
+>  NVIDIA GeForce GTX 950, NVIDIA GeForce GTX 950, 10169 MB
+> -------------------------------------------------------
+> Selected locale: en_US
+> [Loading] LOADING_CONSOLE
+> [Downloader2] Loaded configuration: good
+> [Updater] Requesting an update...
+> [Updater] Requesting from: https://repo.tlauncher.org/update/lch/update_2.0.json
+> [Updater] Making request: https://repo.tlauncher.org/update/lch/update_2.0.json?version=2.86&client=985d4e24-d5b7-41be-b13f-8d890cc9aabd
+> [Updater] Request time: 94 ms
+> [Updater] Successfully requested from: https://repo.tlauncher.org/update/lch/update_2.0.json
+> [Browser] Loading resources...
+> [Browser] Loading background...
+> [Browser] Cleaning up after loading:
+> Starting garbage collector: 56 / 194 MB
+> Garbage collector completed: 20 / 232 MB
+> [Loading] LOADING_MANAGERS
+> [LocalVersionList] Base directory: C:\Users\tiago\AppData\Roaming\.minecraft
+> [ProfileManager] Refreshing profiles from: C:\Users\tiago\AppData\Roaming\.minecraft\TlauncherProfiles.json
+> [JFXStartPageLoader]  start load page: https://page.tlauncher.org/update/downloads/configs/client/eng.html
+> [Browser] Running in JavaFX Thread
+> [Browser] Preparing JavaFX...
+> [AdvertisingStatusObserver]  started to get ad information
+> [AdvertisingStatusObserver]  finished to get add information
+> save profiles
+> [GsonUtil]  request to https://repo.tlauncher.org/update/downloads/libraries/org/tlauncher/authlib/libraries-1.7.json
+> [Loading] LOADING_WINDOW
+> [REPO][SERVER_LIST_REPO] Success: Reached the repo in 41 ms.
+> [Swing] Favicons loaded: 256px, 128px, 96px, 64px, 48px, 32px, 24px, 16px
+> [Loading] PREPARING_MAINPANE
+> [Browser] Initializing...
+> [JFXStartPageLoader]  succeeded load page: https://page.tlauncher.org/update/downloads/configs/client/eng.html during 0
+> [Browser@793911214] Loaded successfully: "https://page.tlauncher.org/update/downloads/configs/client/eng.html"
+> [Browser] add listens into server_choose
+> [Browser] finished listens into server_choose
+> [Downloader2] Loaded configuration: good
+> [Loading] POSTINIT_GUI
+> [Frame] Packing main frame...
+> [Frame] Resizing main pane...
+> Updater is already closed. Showing up...
+> Visibility set.
+> [Loading] REFRESHING_INFO
+> [VersionManager] Refreshing versions remotely...
+> [REPO][EXTRA_VERSION_REPO] Attempt #1; timeout: 20000 ms; url: https://repo.tlauncher.org/update/downloads/versions/new4/
+> Started! (2946 ms.)
+> [Loading] SUCCESS
+[Bootstrapper] I can be terminated now: 0

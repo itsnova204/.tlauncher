@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "itsnova204",
+      "uniqueId": "a0ef09a1-1868-490d-9774-380c9f08bd66"
+    },
+    "time": 1671604438156,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/YJMehWNDAe"
+    }
+  }
+]
